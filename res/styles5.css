@@ -1,0 +1,1692 @@
+.MysteryShopperHeader_header__3qy7I {
+    width: 100%;
+    min-height: fit-content;
+    background: linear-gradient(90deg, #e92027 0, #2b2768);
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column
+}
+
+.MysteryShopperHeader_topNavigation__WU_im {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 80px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1
+}
+
+.MysteryShopperHeader_logoContainer__o_zqU {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-right: 40px;
+    height: 100%
+}
+
+.MysteryShopperHeader_logo__fIbAW {
+    width: 151px;
+    height: 48px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0
+}
+
+.MysteryShopperHeader_logoutButton__nWEOJ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 14px 18px;
+    background-color: #fff;
+    border: 2px solid #8b8b8b;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all .2s ease;
+    flex-shrink: 0
+}
+
+.MysteryShopperHeader_logoutButton__nWEOJ:hover {
+    background-color: #d4d4d4;
+    border-color: #4e4e4e
+}
+
+.MysteryShopperHeader_logoutButton__nWEOJ:focus-visible {
+    outline: 2px solid #8b8b8b;
+    outline-offset: 2px
+}
+
+.MysteryShopperHeader_logoutButton__nWEOJ:active {
+    transform: scale(.98)
+}
+
+.MysteryShopperHeader_logoutIcon__ujtNA {
+    width: 24px;
+    height: 24px;
+    color: #2b2768;
+    flex-shrink: 0
+}
+
+.MysteryShopperHeader_logoutText__mc4r5 {
+    font: normal 700 18px/28px Neue Haas Grotesk Display Pro;
+    color: #2b2768;
+    white-space: nowrap
+}
+
+.MysteryShopperHeader_rightSection__MaDgf {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+    flex-shrink: 0
+}
+
+.MysteryShopperHeader_stepper__Dfx5y {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 160px
+}
+
+.MysteryShopperHeader_stepperStep__FgdHb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 40px;
+    flex-shrink: 0
+}
+
+.MysteryShopperHeader_stepperStep--active__YE1AM,
+.MysteryShopperHeader_stepperStep--done__zAgMD {
+    background-color: #6780c2
+}
+
+.MysteryShopperHeader_stepperStep--inactive__ETt4U {
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.MysteryShopperHeader_stepperNumber__OLt_N {
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro;
+    text-align: center;
+    line-height: 24px
+}
+
+.MysteryShopperHeader_stepperStep--active__YE1AM .MysteryShopperHeader_stepperNumber__OLt_N,
+.MysteryShopperHeader_stepperStep--done__zAgMD .MysteryShopperHeader_stepperNumber__OLt_N {
+    color: #000
+}
+
+.MysteryShopperHeader_stepperStep--inactive__ETt4U .MysteryShopperHeader_stepperNumber__OLt_N {
+    color: #fff
+}
+
+.MysteryShopperHeader_stepperLine__Irm4N {
+    flex: 1 0 0;
+    height: 1px;
+    min-width: 4px
+}
+
+.MysteryShopperHeader_stepperLine--done__w_yFH {
+    background-color: #fff
+}
+
+.MysteryShopperHeader_stepperLine--inactive__pSSYm {
+    background-color: #6780c2
+}
+
+.MysteryShopperHeader_surveyBanner__0I3Ql {
+    display: flex;
+    align-items: center;
+    padding: 24px 80px 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .08);
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1
+}
+
+.MysteryShopperHeader_content__HbYmd {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+    align-items: flex-start
+}
+
+.MysteryShopperHeader_journeyContainer__tJ7wZ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.MysteryShopperHeader_textContainer__FxeWb {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    flex-shrink: 0;
+    width: 100%
+}
+
+.MysteryShopperHeader_journeyChip__GFkgD {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 14px;
+    border-radius: 40px;
+    font: normal 500 18px/28px Neue Haas Grotesk Display Pro;
+    font-weight: 600;
+    width: fit-content;
+    border: 1px solid #fff
+}
+
+.MysteryShopperHeader_title__y1gBJ {
+    margin-top: 20px;
+    font: normal 700 32px/44px RST Thermal;
+    width: 100%;
+    flex-shrink: 0
+}
+
+.MysteryShopperHeader_description__c68Uo {
+    margin-top: 8px;
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+    width: 100%;
+    flex-shrink: 0
+}
+
+@media(max-width: 991px) {
+    .MysteryShopperHeader_header__3qy7I {
+        border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px
+    }
+
+    .MysteryShopperHeader_topNavigation__WU_im {
+        padding: 20px 40px
+    }
+
+    .MysteryShopperHeader_logoContainer__o_zqU {
+        padding-right: 0
+    }
+
+    .MysteryShopperHeader_logo__fIbAW {
+        width: 101px;
+        height: 32px
+    }
+
+    .MysteryShopperHeader_logoutButton__nWEOJ {
+        padding: 12px 16px;
+        gap: 8px
+    }
+
+    .MysteryShopperHeader_logoutIcon__ujtNA {
+        width: 20px;
+        height: 20px
+    }
+
+    .MysteryShopperHeader_logoutText__mc4r5 {
+        font: normal 700 16px/24px Neue Haas Grotesk Display Pro
+    }
+
+    .MysteryShopperHeader_surveyBanner__0I3Ql {
+        padding: 16px 40px 32px;
+        border-radius: 28px
+    }
+
+    .MysteryShopperHeader_content__HbYmd {
+        gap: 16px
+    }
+
+    .MysteryShopperHeader_textContainer__FxeWb {
+        gap: 6px
+    }
+
+    .MysteryShopperHeader_journeyChip__GFkgD {
+        padding: 2px 10px;
+        font: normal 500 16px/24px Neue Haas Grotesk Display Pro
+    }
+
+    .MysteryShopperHeader_title__y1gBJ {
+        font: normal 700 24px/36px RST Thermal
+    }
+
+    .MysteryShopperHeader_description__c68Uo {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+
+    .MysteryShopperHeader_rightSection__MaDgf {
+        gap: 8px
+    }
+
+    .MysteryShopperHeader_stepper__Dfx5y {
+        width: 140px
+    }
+
+    .MysteryShopperHeader_stepperStep__FgdHb {
+        width: 24px;
+        height: 24px
+    }
+
+    .MysteryShopperHeader_stepperNumber__OLt_N {
+        font: normal 500 14px/20px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(max-width: 639px) {
+    .MysteryShopperHeader_header__3qy7I {
+        border-bottom-left-radius: 28px;
+        border-bottom-right-radius: 28px
+    }
+
+    .MysteryShopperHeader_topNavigation__WU_im {
+        padding: 32px 24px
+    }
+
+    .MysteryShopperHeader_logo__fIbAW {
+        width: 88px;
+        height: 28px
+    }
+
+    .MysteryShopperHeader_logoutButton__nWEOJ {
+        padding: 10px 12px;
+        gap: 6px
+    }
+
+    .MysteryShopperHeader_logoutIcon__ujtNA {
+        width: 18px;
+        height: 18px
+    }
+
+    .MysteryShopperHeader_logoutText__mc4r5 {
+        font: normal 700 14px/20px Neue Haas Grotesk Display Pro
+    }
+
+    .MysteryShopperHeader_surveyBanner__0I3Ql {
+        padding: 8px 24px 28px;
+        border-bottom-left-radius: 28px;
+        border-bottom-right-radius: 28px
+    }
+
+    .MysteryShopperHeader_content__HbYmd {
+        gap: 12px
+    }
+
+    .MysteryShopperHeader_textContainer__FxeWb {
+        gap: 4px
+    }
+
+    .MysteryShopperHeader_journeyChip__GFkgD {
+        padding: 2px 8px;
+        font: normal 500 14px/20px Neue Haas Grotesk Display Pro
+    }
+
+    .MysteryShopperHeader_title__y1gBJ {
+        font: normal 700 20px/32px RST Thermal
+    }
+
+    .MysteryShopperHeader_description__c68Uo {
+        font: normal 400 14px/20px Neue Haas Grotesk Display Pro
+    }
+
+    .MysteryShopperHeader_rightSection__MaDgf {
+        gap: 6px
+    }
+
+    .MysteryShopperHeader_stepper__Dfx5y {
+        width: 120px
+    }
+
+    .MysteryShopperHeader_stepperStep__FgdHb {
+        width: 20px;
+        height: 20px
+    }
+
+    .MysteryShopperHeader_stepperNumber__OLt_N {
+        font: normal 500 12px/18px Neue Haas Grotesk Display Pro;
+        line-height: 20px
+    }
+}
+
+.Navbar_navbar__ujNpy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%
+}
+
+.Navbar_navbar--dark__s8GzV {
+    background: #000;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .08)
+}
+
+.Navbar_navbar--light__NMny9 {
+    background: #fff
+}
+
+.Navbar_navbar--spice__uziZs {
+    background: #be2326
+}
+
+.Navbar_navbar--transparent__A8oX6 {
+    background: rgba(0, 0, 0, 0);
+    box-shadow: none
+}
+
+.Navbar_navbar--mobile__RoIDb.Navbar_navbar--dark__s8GzV {
+    padding: 12px 24px;
+    height: 68px
+}
+
+.Navbar_navbar--mobile__RoIDb.Navbar_navbar--light__NMny9 {
+    padding: 32px 24px;
+    height: 92px
+}
+
+.Navbar_navbar--mobile__RoIDb.Navbar_navbar--spice__uziZs {
+    padding: 32px 24px;
+    height: auto
+}
+
+.Navbar_navbar--tablet__hFMdg.Navbar_navbar--dark__s8GzV {
+    padding: 12px 40px;
+    height: 64px
+}
+
+.Navbar_navbar--tablet__hFMdg.Navbar_navbar--light__NMny9 {
+    padding: 20px 40px;
+    height: 80px;
+    gap: 163px
+}
+
+.Navbar_navbar--tablet__hFMdg.Navbar_navbar--spice__uziZs {
+    padding: 20px 40px;
+    height: 72px;
+    gap: 163px
+}
+
+.Navbar_navbar--tablet-1024__vFC3G.Navbar_navbar--dark__s8GzV {
+    padding: 12px 60px;
+    height: 64px;
+    gap: 163px
+}
+
+.Navbar_navbar--tablet-1024__vFC3G.Navbar_navbar--light__NMny9 {
+    padding: 20px 60px;
+    height: 80px;
+    gap: 163px
+}
+
+.Navbar_navbar--tablet-1024__vFC3G.Navbar_navbar--spice__uziZs {
+    padding: 20px 60px;
+    height: 72px;
+    gap: 163px
+}
+
+.Navbar_navbar--desktop__vrab9.Navbar_navbar--dark__s8GzV {
+    padding: 12px 24px;
+    height: 68px;
+    gap: 24px
+}
+
+.Navbar_navbar--desktop__vrab9.Navbar_navbar--light__NMny9,
+.Navbar_navbar--desktop__vrab9.Navbar_navbar--spice__uziZs {
+    padding: 32px 80px;
+    height: 112px;
+    gap: 163px
+}
+
+.Navbar_logoMenu__0vF9K {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    gap: 0;
+    padding: 0
+}
+
+.Navbar_navbar--dark__s8GzV .Navbar_logo__vEH6b,
+.Navbar_navbar--dark__s8GzV .Navbar_logo__vEH6b svg {
+    width: 128px;
+    height: 32px
+}
+
+.Navbar_navbar--light__NMny9 .Navbar_logo__vEH6b,
+.Navbar_navbar--light__NMny9 .Navbar_logo__vEH6b svg,
+.Navbar_navbar--spice__uziZs .Navbar_logo__vEH6b,
+.Navbar_navbar--spice__uziZs .Navbar_logo__vEH6b svg {
+    width: 88px;
+    height: 28px
+}
+
+.Navbar_logo__vEH6b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0
+}
+
+.Navbar_logo__vEH6b svg {
+    display: block
+}
+
+.Navbar_menu__1dhKf {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px
+}
+
+.Navbar_menuItem__HWH20 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    font: normal 500 18px/28px Neue Haas Grotesk Display Pro;
+    white-space: nowrap;
+    transition: all .2s ease;
+    padding: 8px 0;
+    position: relative
+}
+
+.Navbar_menuItem__HWH20 svg {
+    width: 20px;
+    height: 20px;
+    transition: transform .2s ease
+}
+
+.Navbar_menuItem__HWH20:focus-visible {
+    outline: 2px solid #419a99;
+    outline-offset: 2px;
+    border-radius: 2px
+}
+
+.Navbar_navbar--dark__s8GzV .Navbar_menuItem__HWH20 {
+    color: #fff
+}
+
+.Navbar_navbar--dark__s8GzV .Navbar_menuItem__HWH20:hover {
+    opacity: .8
+}
+
+.Navbar_navbar--dark__s8GzV .Navbar_menuItem__HWH20:active {
+    opacity: .6
+}
+
+.Navbar_navbar--light__NMny9 .Navbar_menuItem__HWH20 {
+    color: #000
+}
+
+.Navbar_navbar--light__NMny9 .Navbar_menuItem__HWH20:hover {
+    color: #4e4e4e
+}
+
+.Navbar_navbar--light__NMny9 .Navbar_menuItem__HWH20:active {
+    color: #353535
+}
+
+.Navbar_navbar--spice__uziZs .Navbar_menuItem__HWH20 {
+    color: #fff
+}
+
+.Navbar_navbar--spice__uziZs .Navbar_menuItem__HWH20:hover {
+    opacity: .8
+}
+
+.Navbar_navbar--spice__uziZs .Navbar_menuItem__HWH20:active {
+    opacity: .6
+}
+
+.Navbar_menuItem--active__BFS6Y:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px
+}
+
+.Navbar_navbar--dark__s8GzV .Navbar_menuItem--active__BFS6Y:after {
+    background: #f1f1f1
+}
+
+.Navbar_navbar--light__NMny9 .Navbar_menuItem--active__BFS6Y:after {
+    background: #000
+}
+
+.Navbar_navbar--spice__uziZs .Navbar_menuItem--active__BFS6Y:after {
+    background: #f1f1f1
+}
+
+.Navbar_actions__OwIq0 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0
+}
+
+@media(min-width: 640px) {
+    .Navbar_menu__1dhKf {
+        display: flex
+    }
+}
+
+@media(min-width: 768px) {
+
+    .Navbar_navbar--desktop__vrab9.Navbar_navbar--dark__s8GzV,
+    .Navbar_navbar--tablet-1024__vFC3G.Navbar_navbar--dark__s8GzV {
+        padding: 12px 40px;
+        height: 64px
+    }
+
+    .Navbar_navbar--desktop__vrab9 .Navbar_logoMenu__0vF9K,
+    .Navbar_navbar--tablet-1024__vFC3G .Navbar_logoMenu__0vF9K {
+        gap: 40px;
+        padding: 0 24px 0 0
+    }
+
+    .Navbar_navbar--dark__s8GzV .Navbar_logo__vEH6b,
+    .Navbar_navbar--dark__s8GzV .Navbar_logo__vEH6b svg {
+        width: 104px;
+        height: 28px
+    }
+
+    .Navbar_navbar--light__NMny9 .Navbar_logo__vEH6b,
+    .Navbar_navbar--light__NMny9 .Navbar_logo__vEH6b svg,
+    .Navbar_navbar--spice__uziZs .Navbar_logo__vEH6b,
+    .Navbar_navbar--spice__uziZs .Navbar_logo__vEH6b svg {
+        width: 120px;
+        height: 40px
+    }
+}
+
+@media(min-width: 1025px) {
+    .Navbar_navbar--desktop__vrab9.Navbar_navbar--dark__s8GzV {
+        padding: 12px 60px;
+        height: 64px
+    }
+
+    .Navbar_navbar--desktop__vrab9 .Navbar_logoMenu__0vF9K {
+        gap: 60px;
+        padding: 0 32px 0 0
+    }
+}
+
+@media(min-width: 1280px) {
+    .Navbar_navbar--desktop__vrab9.Navbar_navbar--dark__s8GzV {
+        padding: 12px 80px;
+        height: 68px;
+        gap: 163px
+    }
+
+    .Navbar_navbar--desktop__vrab9 .Navbar_logoMenu__0vF9K {
+        gap: 80px;
+        padding: 0 40px 0 0
+    }
+
+    .Navbar_navbar--dark__s8GzV .Navbar_logo__vEH6b,
+    .Navbar_navbar--dark__s8GzV .Navbar_logo__vEH6b svg {
+        width: 128px;
+        height: 32px
+    }
+
+    .Navbar_navbar--light__NMny9 .Navbar_logo__vEH6b,
+    .Navbar_navbar--light__NMny9 .Navbar_logo__vEH6b svg,
+    .Navbar_navbar--spice__uziZs .Navbar_logo__vEH6b,
+    .Navbar_navbar--spice__uziZs .Navbar_logo__vEH6b svg {
+        width: 151px;
+        height: 48px
+    }
+}
+
+.Badge_badge__BHLQJ {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px
+}
+
+.Badge_badge--icons__YFkgm {
+    padding: 0
+}
+
+.Badge_badge--icons__YFkgm svg {
+    width: 16px;
+    height: 16px
+}
+
+.Badge_badge--numbers__sxS3m {
+    min-width: 20px;
+    padding: 0 2px
+}
+
+.Badge_badgeNumber__YOcNz {
+    font: normal 700 14px/20px Neue Haas Grotesk Display Pro;
+    text-align: center;
+    white-space: nowrap
+}
+
+.Badge_badge--primary__O8FFn.Badge_badge--bold__Fj7uX {
+    background: #4e4e4e;
+    color: #fff
+}
+
+.Badge_badge--primary__O8FFn.Badge_badge--default__g1_iM {
+    background: #d4d4d4;
+    color: #000
+}
+
+.Badge_badge--secondary__M6rzl.Badge_badge--bold__Fj7uX {
+    background: #620000;
+    color: #fff
+}
+
+.Badge_badge--secondary__M6rzl.Badge_badge--default__g1_iM {
+    background: #fea7a8;
+    color: #000
+}
+
+.Badge_badge--success__kKs_d.Badge_badge--bold__Fj7uX {
+    background: #22c55e;
+    color: #fff
+}
+
+.Badge_badge--success__kKs_d.Badge_badge--default__g1_iM {
+    background: #b5ecc9;
+    color: #000
+}
+
+.Badge_badge--alert__zuHrA.Badge_badge--bold__Fj7uX {
+    background: #806104;
+    color: #fff
+}
+
+.Badge_badge--alert__zuHrA.Badge_badge--default__g1_iM {
+    background: #ffc107;
+    color: #000
+}
+
+.Badge_badge--danger__TNO_e.Badge_badge--bold__Fj7uX {
+    background: #e92027;
+    color: #fff
+}
+
+.Badge_badge--danger__TNO_e.Badge_badge--default__g1_iM {
+    background: #ffd2d2;
+    color: #000
+}
+
+.Badge_badge--neutral__YQGnj.Badge_badge--bold__Fj7uX {
+    background: #353535;
+    color: #fff
+}
+
+.Badge_badge--neutral__YQGnj.Badge_badge--default__g1_iM {
+    background: #bebebe;
+    color: #000
+}
+
+.Banner_banner__W_Rd5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    border-left: 4px solid
+}
+
+.Banner_banner--desktop__gKv6g {
+    gap: 24px;
+    padding: 18px 24px;
+    border-radius: 16px
+}
+
+.Banner_banner--desktop__gKv6g .Banner_bannerIcon__jaTPu {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0
+}
+
+.Banner_banner--desktop__gKv6g .Banner_bannerIcon__jaTPu svg {
+    width: 32px;
+    height: 32px
+}
+
+.Banner_banner--desktop__gKv6g .Banner_bannerContent__gyTh3 {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+}
+
+.Banner_banner--tablet__sXIYs {
+    gap: 16px;
+    padding: 16px 20px;
+    border-radius: 12px
+}
+
+.Banner_banner--tablet__sXIYs .Banner_bannerIcon__jaTPu {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0
+}
+
+.Banner_banner--tablet__sXIYs .Banner_bannerIcon__jaTPu svg {
+    width: 28px;
+    height: 28px
+}
+
+.Banner_banner--tablet__sXIYs .Banner_bannerContent__gyTh3 {
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+}
+
+.Banner_banner--mobile__3arTs {
+    gap: 16px;
+    padding: 12px 18px;
+    border-radius: 8px
+}
+
+.Banner_banner--mobile__3arTs .Banner_bannerIcon__jaTPu {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0
+}
+
+.Banner_banner--mobile__3arTs .Banner_bannerIcon__jaTPu svg {
+    width: 24px;
+    height: 24px
+}
+
+.Banner_banner--mobile__3arTs .Banner_bannerContent__gyTh3 {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.Banner_banner--primary__By1gg {
+    background: #f1f1f1;
+    border-left-color: #656565;
+    color: #000
+}
+
+.Banner_banner--primary__By1gg .Banner_bannerIcon__jaTPu {
+    color: #8b8b8b
+}
+
+.Banner_banner--success__hu4FV {
+    background: #d3f3df;
+    border-left-color: #1ca44e;
+    color: #000
+}
+
+.Banner_banner--success__hu4FV .Banner_bannerIcon__jaTPu {
+    color: #22c55e
+}
+
+.Banner_banner--alert__EftlS {
+    background: #fff3cd;
+    border-left-color: #d4a106;
+    color: #000
+}
+
+.Banner_banner--alert__EftlS .Banner_bannerIcon__jaTPu {
+    color: #ffc107
+}
+
+.Banner_banner--danger__RDi2C {
+    background: #f8ede4;
+    border-left-color: #e92027;
+    color: #000
+}
+
+.Banner_banner--danger__RDi2C .Banner_bannerIcon__jaTPu {
+    color: #fe7b7d
+}
+
+.Banner_bannerIcon__jaTPu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.Banner_bannerContent__gyTh3 {
+    flex: 1;
+    line-height: inherit
+}
+
+.QuestionnaireBanner_questionnaireBanner__oJAfA {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #000;
+    color: #fff
+}
+
+.QuestionnaireBanner_bannerDecoration__zX5ma {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 77, 109, .6) 0, rgba(255, 77, 109, .1) 50%, rgba(0, 0, 0, 0) 70%);
+    top: -80px;
+    left: -80px;
+    pointer-events: none;
+    z-index: 0;
+    display: none
+}
+
+.QuestionnaireBanner_bannerContent__HHs4x {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: column
+}
+
+.QuestionnaireBanner_bannerText__mWEeY {
+    display: flex;
+    flex-direction: column
+}
+
+.QuestionnaireBanner_bannerDescription__QjiQm,
+.QuestionnaireBanner_bannerTitle__udox_ {
+    margin: 0;
+    color: #fff
+}
+
+.QuestionnaireBanner_bannerAnimation__Swv9n {
+    position: relative;
+    z-index: 1;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.QuestionnaireBanner_bannerAnimationImage__0NTHB {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+
+.QuestionnaireBanner_questionnaireBanner--desktop__r0yZa {
+    gap: 40px;
+    padding: 24px 32px;
+    border-radius: 40px;
+    min-height: 240px
+}
+
+.QuestionnaireBanner_questionnaireBanner--desktop__r0yZa .QuestionnaireBanner_bannerContent__HHs4x {
+    gap: 12px
+}
+
+.QuestionnaireBanner_questionnaireBanner--desktop__r0yZa .QuestionnaireBanner_bannerText__mWEeY {
+    gap: 2px
+}
+
+.QuestionnaireBanner_questionnaireBanner--desktop__r0yZa .QuestionnaireBanner_bannerTitle__udox_ {
+    font: normal 700 32px/44px Neue Haas Grotesk Display Pro
+}
+
+.QuestionnaireBanner_questionnaireBanner--desktop__r0yZa .QuestionnaireBanner_bannerDescription__QjiQm {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+}
+
+.QuestionnaireBanner_questionnaireBanner--desktop__r0yZa .QuestionnaireBanner_bannerAnimation__Swv9n {
+    width: 200px;
+    height: 200px
+}
+
+.QuestionnaireBanner_questionnaireBanner--desktop__r0yZa .QuestionnaireBanner_bannerDecoration__zX5ma {
+    display: none
+}
+
+.QuestionnaireBanner_questionnaireBanner--tablet__Hk6di {
+    gap: 24px;
+    padding: 32px;
+    border-radius: 28px;
+    min-height: 182px
+}
+
+.QuestionnaireBanner_questionnaireBanner--tablet__Hk6di .QuestionnaireBanner_bannerContent__HHs4x {
+    gap: 8px
+}
+
+.QuestionnaireBanner_questionnaireBanner--tablet__Hk6di .QuestionnaireBanner_bannerText__mWEeY {
+    gap: 2px
+}
+
+.QuestionnaireBanner_questionnaireBanner--tablet__Hk6di .QuestionnaireBanner_bannerTitle__udox_ {
+    font: normal 700 24px/36px Neue Haas Grotesk Display Pro
+}
+
+.QuestionnaireBanner_questionnaireBanner--tablet__Hk6di .QuestionnaireBanner_bannerDescription__QjiQm {
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+}
+
+.QuestionnaireBanner_questionnaireBanner--tablet__Hk6di .QuestionnaireBanner_bannerAnimation__Swv9n {
+    width: 140px;
+    height: 140px
+}
+
+.QuestionnaireBanner_questionnaireBanner--tablet__Hk6di .QuestionnaireBanner_bannerDecoration__zX5ma {
+    display: none
+}
+
+.QuestionnaireBanner_questionnaireBanner--mobile__jiMaB {
+    gap: 16px;
+    padding: 16px 20px;
+    border-radius: 20px;
+    min-height: 160px
+}
+
+.QuestionnaireBanner_questionnaireBanner--mobile__jiMaB .QuestionnaireBanner_bannerContent__HHs4x {
+    gap: 12px
+}
+
+.QuestionnaireBanner_questionnaireBanner--mobile__jiMaB .QuestionnaireBanner_bannerText__mWEeY {
+    gap: 2px
+}
+
+.QuestionnaireBanner_questionnaireBanner--mobile__jiMaB .QuestionnaireBanner_bannerTitle__udox_ {
+    font: normal 700 18px/28px Neue Haas Grotesk Display Pro
+}
+
+.QuestionnaireBanner_questionnaireBanner--mobile__jiMaB .QuestionnaireBanner_bannerDescription__QjiQm {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.QuestionnaireBanner_questionnaireBanner--mobile__jiMaB .QuestionnaireBanner_bannerAnimation__Swv9n {
+    display: none
+}
+
+.QuestionnaireBanner_questionnaireBanner--mobile__jiMaB .QuestionnaireBanner_bannerDecoration__zX5ma {
+    display: block;
+    width: 240px;
+    height: 240px;
+    top: 53px;
+    left: -23px
+}
+
+.Upload_upload__DMl4_ {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%
+}
+
+.Upload_upload--disabled__GJw43 {
+    opacity: .5
+}
+
+.Upload_upload--disabled__GJw43 .Upload_addButtonWrapper__0DGt7,
+.Upload_upload--disabled__GJw43 .Upload_header__iJf7z,
+.Upload_upload--disabled__GJw43 .Upload_placeholder__lHTrD {
+    pointer-events: none
+}
+
+.Upload_upload--disabled__GJw43 .Upload_dropzone__gHoq9 {
+    cursor: default
+}
+
+.Upload_upload--disabled__GJw43 .Upload_dropzone__gHoq9:hover {
+    border-color: #8b8b8b;
+    background: #fff
+}
+
+.Upload_header__iJf7z {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+}
+
+.Upload_labelContainer__usVwf {
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.Upload_label__wU6rO {
+    color: #000
+}
+
+.Upload_label__wU6rO,
+.Upload_required__s4iJ7 {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.Upload_required__s4iJ7 {
+    color: #e92027
+}
+
+.Upload_hiddenInput__GCCRF {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    pointer-events: none
+}
+
+.Upload_dropzone__gHoq9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+    border: 1px dashed #8b8b8b;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border-color .2s ease, background-color .2s ease;
+    overflow: hidden
+}
+
+.Upload_dropzone__gHoq9:hover {
+    border-color: #4e4e4e;
+    background: #f9f9f9
+}
+
+.Upload_dropzone__gHoq9:focus-visible {
+    outline: 2px solid #d4d4d4;
+    outline-offset: 2px
+}
+
+.Upload_placeholder__lHTrD {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px
+}
+
+.Upload_placeholderIcon__P5oJ1 {
+    width: 24px;
+    height: 24px;
+    color: #8b8b8b
+}
+
+.Upload_fileIcon__EICF2 {
+    width: 24px;
+    height: 24px
+}
+
+.Upload_removeIcon__WtOXC {
+    width: 16px;
+    height: 16px
+}
+
+.Upload_placeholderText__B7xdC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    text-align: center
+}
+
+.Upload_placeholderTitle__11hny {
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b
+}
+
+.Upload_placeholderDescription__5lwUp {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b
+}
+
+.Upload_previewContainer__chuod {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 12px 12px 0;
+    width: 100%;
+    height: 134px;
+    overflow-x: auto;
+    background: #f1f1f1;
+    border-radius: 8px
+}
+
+.Upload_addButtonWrapper__0DGt7 {
+    position: sticky;
+    left: 0;
+    z-index: 3;
+    flex-shrink: 0;
+    background: #f1f1f1;
+    padding-left: 12px;
+    padding-right: 8px
+}
+
+.Upload_addButton__SXBqI {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: #d4d4d4;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .2s ease
+}
+
+.Upload_addButton__SXBqI:hover {
+    background: #d4d4d4
+}
+
+.Upload_addButton__SXBqI:focus-visible {
+    outline: 2px solid #d4d4d4;
+    outline-offset: 2px
+}
+
+.Upload_addButtonCircle__8rmun {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    border: 2px solid #8b8b8b;
+    border-radius: 40px
+}
+
+.Upload_addIcon__K3pJj {
+    width: 20px;
+    height: 20px;
+    color: #000
+}
+
+.Upload_previewItem__xxDbu {
+    position: relative;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden
+}
+
+.Upload_previewItem__xxDbu:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(1px);
+    opacity: 0;
+    transition: opacity .2s ease;
+    z-index: 1;
+    pointer-events: none
+}
+
+.Upload_previewItem__xxDbu:hover .Upload_removeButton__iLQGD,
+.Upload_previewItem__xxDbu:hover:before {
+    opacity: 1
+}
+
+.Upload_previewImage__i6wMM {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px
+}
+
+.Upload_previewFile___CE6H {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 80px;
+    height: 80px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    color: #8b8b8b
+}
+
+.Upload_fileName__WN8JN {
+    font: normal 400 12px/18px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b;
+    max-width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.Upload_removeButton__iLQGD {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    border: 2px solid #8b8b8b;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #000;
+    padding: 0;
+    opacity: 0;
+    transition: opacity .2s ease, background-color .2s ease;
+    z-index: 2
+}
+
+.Upload_removeButton__iLQGD:hover {
+    background: #f1f1f1
+}
+
+.Upload_footer__OqKD0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+}
+
+.Upload_helperText__HsyTi {
+    color: #8b8b8b
+}
+
+.Upload_helperText__HsyTi,
+.Upload_information__Eo2Ke {
+    font: normal 400 12px/18px Neue Haas Grotesk Display Pro
+}
+
+.Upload_information__Eo2Ke {
+    color: #000
+}
+
+.Upload_upload--medium___mgv2 .Upload_dropzone__gHoq9 {
+    min-height: 100px
+}
+
+.Upload_upload--large__4uFFP .Upload_dropzone__gHoq9 {
+    min-height: 134px
+}
+
+.Upload_upload--large__4uFFP .Upload_addButton__SXBqI,
+.Upload_upload--large__4uFFP .Upload_previewFile___CE6H,
+.Upload_upload--large__4uFFP .Upload_previewImage__i6wMM {
+    width: 96px;
+    height: 96px
+}
+
+.Upload_upload--error__TWsdq .Upload_dropzone__gHoq9 {
+    border-color: #e92027
+}
+
+.Upload_upload--error__TWsdq .Upload_helperText__HsyTi {
+    color: #e92027
+}
+
+.Upload_upload--error__TWsdq.Upload_upload--dragover____9E0 .Upload_dropzone__gHoq9,
+.Upload_upload--error__TWsdq.Upload_upload--focused__bSXs8 .Upload_dropzone__gHoq9 {
+    border-color: #be2326
+}
+
+.Upload_upload--dragover____9E0 .Upload_dropzone__gHoq9 {
+    border-color: #656565;
+    background: #f9f9f9
+}
+
+.Upload_upload--focused__bSXs8 .Upload_dropzone__gHoq9 {
+    border-color: #656565
+}
+
+.Upload_upload--filled__1092H .Upload_dropzone__gHoq9 {
+    border-style: dashed;
+    justify-content: flex-start
+}
+
+.LikertSlider_likertSlider__ma6eM {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%
+}
+
+.LikertSlider_likertSlider--disabled__4mrl0 {
+    opacity: .5;
+    pointer-events: none
+}
+
+.LikertSlider_numbersRow__BoJub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+}
+
+.LikertSlider_number__GNi18 {
+    color: #000;
+    text-align: center;
+    transition: font-weight .2s ease;
+    flex-shrink: 0
+}
+
+.LikertSlider_number--selected___tWrq {
+    font-weight: 700
+}
+
+.LikertSlider_numbersRow--labels__cZ5DN {
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 4px
+}
+
+.LikertSlider_numbersRow--labels__cZ5DN .LikertSlider_number--label__x73cs:first-child {
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 0
+}
+
+.LikertSlider_numbersRow--labels__cZ5DN .LikertSlider_number--label__x73cs:last-child {
+    justify-content: flex-end;
+    text-align: right;
+    padding-right: 0
+}
+
+.LikertSlider_number--label__x73cs {
+    flex: 0 0 24px;
+    min-width: 0;
+    overflow: visible;
+    font-size: 12px;
+    line-height: 1.3;
+    white-space: nowrap;
+    min-height: 2.6em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2px;
+    box-sizing: border-box
+}
+
+.LikertSlider_trackContainer__6kPU3 {
+    position: relative;
+    width: 100%;
+    cursor: pointer
+}
+
+.LikertSlider_track__SJ1jl {
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 10px;
+    background: #d4d4d4;
+    border-radius: 40px;
+    overflow: hidden;
+    z-index: 0
+}
+
+.LikertSlider_trackFill__eLj0_ {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #8b8b8b;
+    border-radius: 40px;
+    transition: width .2s ease
+}
+
+.LikertSlider_bulletsRow__UzF_T {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1
+}
+
+.LikertSlider_bullet__ZB5ME {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 2px solid #353535;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background .2s ease, border-color .2s ease;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.LikertSlider_bullet__ZB5ME:hover:not(:disabled) {
+    background: #fff;
+    border-color: #656565
+}
+
+.LikertSlider_bullet__ZB5ME:active:not(:disabled) {
+    background: #d4d4d4;
+    border-color: #8b8b8b
+}
+
+.LikertSlider_bullet__ZB5ME:focus-visible {
+    outline: 2px solid #d4d4d4;
+    outline-offset: 2px
+}
+
+.LikertSlider_bullet--selected__pxwMI {
+    background: #d4d4d4;
+    border-color: #000
+}
+
+.LikertSlider_bullet--selected__pxwMI .LikertSlider_bulletDot__CVg_X {
+    opacity: 1
+}
+
+.LikertSlider_bulletDot__CVg_X {
+    background: #000;
+    border-radius: 40px;
+    opacity: 0;
+    transition: opacity .2s ease
+}
+
+.LikertSlider_indicatorRow__2nCK1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 20px;
+    cursor: pointer
+}
+
+.LikertSlider_indicatorWrapper__e5_x9 {
+    display: flex;
+    justify-content: center
+}
+
+.LikertSlider_triangle__xFSXc {
+    color: #000;
+    opacity: 0;
+    transition: opacity .2s ease
+}
+
+.LikertSlider_triangle--visible__aVbfQ {
+    opacity: 1
+}
+
+.LikertSlider_draggableTriangle___0g6s {
+    position: absolute;
+    transform: translateX(-50%);
+    cursor: grab;
+    color: #000;
+    transition: left .1s ease-out
+}
+
+.LikertSlider_draggableTriangle___0g6s:active {
+    cursor: grabbing
+}
+
+.LikertSlider_draggableTriangle--dragging__mKdaA {
+    cursor: grabbing;
+    transition: none
+}
+
+.LikertSlider_triangleSvg__hfhJT {
+    width: 24px;
+    height: 20px;
+    display: block
+}
+
+.LikertSlider_likertSlider--dragging__EJ6zV {
+    user-select: none
+}
+
+.LikertSlider_likertSlider--dragging__EJ6zV .LikertSlider_indicatorRow__2nCK1,
+.LikertSlider_likertSlider--dragging__EJ6zV .LikertSlider_trackContainer__6kPU3 {
+    cursor: grabbing
+}
+
+.LikertSlider_labelsRow__z3_VG {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 8px
+}
+
+.LikertSlider_label___beOP {
+    flex: 0 0 20%;
+    max-width: 20%;
+    text-align: left;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b;
+    transition: color .2s ease;
+    line-height: 1.3;
+    min-height: 2.6em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center
+}
+
+.LikertSlider_label--selected__CmAem {
+    color: #000
+}
+
+.LikertSlider_likertSlider--desktop__uMzHg {
+    gap: 8px
+}
+
+.LikertSlider_likertSlider--desktop__uMzHg .LikertSlider_numbersRow__BoJub {
+    padding: 0
+}
+
+.LikertSlider_likertSlider--desktop__uMzHg .LikertSlider_number__GNi18 {
+    font: normal 400 12px/18px Neue Haas Grotesk Display Pro;
+    width: 24px
+}
+
+.LikertSlider_likertSlider--desktop__uMzHg .LikertSlider_trackContainer__6kPU3 {
+    height: 24px
+}
+
+.LikertSlider_likertSlider--desktop__uMzHg .LikertSlider_bullet__ZB5ME {
+    width: 24px;
+    height: 24px
+}
+
+.LikertSlider_likertSlider--desktop__uMzHg .LikertSlider_bulletDot__CVg_X {
+    width: 14px;
+    height: 14px
+}
+
+.LikertSlider_likertSlider--desktop__uMzHg .LikertSlider_indicatorWrapper__e5_x9 {
+    width: 24px
+}
+
+.LikertSlider_likertSlider--desktop__uMzHg .LikertSlider_triangle__xFSXc {
+    width: 24px;
+    height: 20px
+}
+
+.LikertSlider_likertSlider--tablet__hbwWN {
+    gap: 8px
+}
+
+.LikertSlider_likertSlider--tablet__hbwWN .LikertSlider_numbersRow__BoJub {
+    padding: 0
+}
+
+.LikertSlider_likertSlider--tablet__hbwWN .LikertSlider_number__GNi18 {
+    font: normal 400 12px/18px Neue Haas Grotesk Display Pro;
+    width: 24px
+}
+
+.LikertSlider_likertSlider--tablet__hbwWN .LikertSlider_trackContainer__6kPU3 {
+    height: 24px
+}
+
+.LikertSlider_likertSlider--tablet__hbwWN .LikertSlider_bullet__ZB5ME {
+    width: 24px;
+    height: 24px
+}
+
+.LikertSlider_likertSlider--tablet__hbwWN .LikertSlider_bulletDot__CVg_X {
+    width: 14px;
+    height: 14px
+}
+
+.LikertSlider_likertSlider--tablet__hbwWN .LikertSlider_indicatorWrapper__e5_x9 {
+    width: 24px
+}
+
+.LikertSlider_likertSlider--tablet__hbwWN .LikertSlider_triangle__xFSXc {
+    width: 24px;
+    height: 20px
+}
+
+.LikertSlider_likertSlider--tablet__hbwWN .LikertSlider_number--label__x73cs {
+    white-space: pre-line
+}
+
+.LikertSlider_likertSlider--mobile__Gp2RO {
+    gap: 4px
+}
+
+.LikertSlider_likertSlider--mobile__Gp2RO .LikertSlider_numbersRow__BoJub {
+    padding: 0
+}
+
+.LikertSlider_likertSlider--mobile__Gp2RO .LikertSlider_number__GNi18 {
+    font: normal 400 12px/18px Neue Haas Grotesk Display Pro;
+    width: 24px
+}
+
+.LikertSlider_likertSlider--mobile__Gp2RO .LikertSlider_trackContainer__6kPU3 {
+    height: 24px
+}
+
+.LikertSlider_likertSlider--mobile__Gp2RO .LikertSlider_bullet__ZB5ME {
+    width: 24px;
+    height: 24px
+}
+
+.LikertSlider_likertSlider--mobile__Gp2RO .LikertSlider_bulletDot__CVg_X {
+    width: 14px;
+    height: 14px
+}
+
+.LikertSlider_likertSlider--mobile__Gp2RO .LikertSlider_indicatorWrapper__e5_x9 {
+    width: 24px
+}
+
+.LikertSlider_likertSlider--mobile__Gp2RO .LikertSlider_triangle__xFSXc {
+    width: 24px;
+    height: 20px
+}
+
+.LikertSlider_likertSlider--mobile__Gp2RO .LikertSlider_number--label__x73cs {
+    font-size: 8px;
+    white-space: pre-line
+}

@@ -1,0 +1,5786 @@
+.ThreePQuestionCard_outerContainer__LpH4X {
+    position: relative;
+    padding: 32px
+}
+
+.ThreePQuestionCard_containerBadge__Q_xVR {
+    z-index: 100;
+    width: 64px;
+    height: 64px;
+    border-radius: 160px;
+    background: linear-gradient(135deg, #e92027, #2b2768 90%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal 700 28px/40px Neue Haas Grotesk Display Pro;
+    color: #fff
+}
+
+.ThreePQuestionCard_container__sx6l0 {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    border-radius: 40px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #620000;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .15)
+}
+
+.ThreePQuestionCard_containerRevision__3RCj_ {
+    border: 2px solid #e92027
+}
+
+.ThreePQuestionCard_containerApproved__uAU1e {
+    position: relative;
+    pointer-events: none;
+    user-select: none
+}
+
+.ThreePQuestionCard_containerApproved__uAU1e:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: hsla(0, 0%, 100%, .7);
+    border-radius: inherit;
+    z-index: 10
+}
+
+.ThreePQuestionCard_header__oF6_i {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px
+}
+
+.ThreePQuestionCard_header--people__40yqo {
+    background: #bdeaea
+}
+
+.ThreePQuestionCard_header--process__DLHFn {
+    background: #b5ecc9
+}
+
+.ThreePQuestionCard_header--physical__pDrAd {
+    background: #ffeaac
+}
+
+.ThreePQuestionCard_headerIcon__PgM6g {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #f1f1f1
+}
+
+.ThreePQuestionCard_icon__7z1ii {
+    width: 16px;
+    height: 16px;
+    color: #4e4e4e
+}
+
+.ThreePQuestionCard_headerTitle__qsfuA {
+    font: normal 700 16px/24px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.ThreePQuestionCard_content__tSM_A {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px
+}
+
+.ThreePQuestionCard_description__0kdMx {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0;
+    line-height: 1.5
+}
+
+.ThreePQuestionCard_revisionSection__0dYO2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px
+}
+
+.ThreePQuestionCard_revisionChip__qNlby {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 14px;
+    background: #e92027;
+    border-radius: 40px
+}
+
+.ThreePQuestionCard_revisionChipText__HvEYk {
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro;
+    color: #fff
+}
+
+.ThreePQuestionCard_revisionNotes__0DGTk {
+    margin: 0;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #e92027;
+    line-height: 1.5
+}
+
+.ThreePQuestionCard_revisionNotesLabel__WkwEv {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.ThreePQuestionCard_requiredIndicator__ckAVF {
+    color: #e92027;
+    margin-left: 2px
+}
+
+.ThreePQuestionCard_requiredFooter__cwaCU {
+    margin-top: 16px;
+    padding-top: 12px
+}
+
+.ThreePQuestionCard_requiredFooterText__SM40b {
+    font: normal 700 12px/18px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.ThreePQuestionCard_likertSection__95iUu {
+    margin-top: 24px;
+    padding: 32px;
+    border-radius: 32px;
+    border: 1px solid #a3a3a3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px
+}
+
+.ThreePQuestionCard_likertHeader__d5GaT {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%
+}
+
+.ThreePQuestionCard_likertLabel__jIzzL {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro;
+    color: #4e4e4e
+}
+
+.ThreePQuestionCard_likertScale__II0ow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px 0
+}
+
+.ThreePQuestionCard_likertItem__Hv735 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    flex: 1
+}
+
+.ThreePQuestionCard_likertNumber__mUzBU {
+    font: normal 500 12px/18px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b
+}
+
+.ThreePQuestionCard_likertButton__KOMT_ {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #4e4e4e;
+    background: #f1f1f1;
+    cursor: pointer;
+    transition: all .15s ease
+}
+
+.ThreePQuestionCard_likertButton__KOMT_:hover:not(:disabled) {
+    border-color: #e92027;
+    background: #f8ede4
+}
+
+.ThreePQuestionCard_likertButton__KOMT_:disabled {
+    cursor: not-allowed;
+    opacity: .5
+}
+
+.ThreePQuestionCard_likertButton--selected__0p10S {
+    border-color: #e92027;
+    background: #e92027
+}
+
+.ThreePQuestionCard_likertIndicator__qEhMi {
+    color: #e92027
+}
+
+.ThreePQuestionCard_evidenceSection__bqwJ7 {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.ThreePQuestionCard_evidenceHeader__MztLc {
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.ThreePQuestionCard_evidenceLabel__QjvE4 {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro;
+    color: #4e4e4e
+}
+
+.ThreePQuestionCard_evidenceConditional__qxmjB {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b;
+    font-style: italic
+}
+
+.ThreePQuestionCard_tooltipWrapper__TSz51 {
+    position: relative;
+    display: inline-flex
+}
+
+.ThreePQuestionCard_infoButton__HsVE_ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #8b8b8b;
+    border-radius: 50%;
+    transition: background-color .15s ease
+}
+
+.ThreePQuestionCard_infoButton__HsVE_:hover {
+    background: #bebebe
+}
+
+.ThreePQuestionCard_infoIcon__zQLCR {
+    width: 16px;
+    height: 16px
+}
+
+.ThreePQuestionCard_tooltip__03jij {
+    position: absolute;
+    z-index: 100;
+    top: calc(100% + 4px);
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 200px;
+    max-width: 300px;
+    padding: 12px;
+    background: #4e4e4e;
+    color: #fff;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    border-radius: 8px;
+    box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, .24)
+}
+
+.ThreePQuestionCard_tooltip__03jij:before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid rgba(0, 0, 0, 0);
+    border-bottom-color: #4e4e4e
+}
+
+.ThreePQuestionCard_multipleEvidenceList__jEG9X {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px 12px;
+    background: #bebebe;
+    border-radius: 8px
+}
+
+.ThreePQuestionCard_multipleEvidenceItem__fXath {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px
+}
+
+.ThreePQuestionCard_multipleEvidenceNumber__gXjdu {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro;
+    color: #4e4e4e;
+    flex-shrink: 0
+}
+
+.ThreePQuestionCard_multipleEvidenceText__0Dmx8 {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b
+}
+
+.ThreePQuestionCard_dropzone__Eh6Ju {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 24px;
+    border: 1px dashed #4e4e4e;
+    border-radius: 8px;
+    background: #f1f1f1;
+    cursor: pointer;
+    transition: all .15s ease
+}
+
+.ThreePQuestionCard_dropzone__Eh6Ju:hover {
+    border-color: #e92027;
+    background: #bebebe
+}
+
+.ThreePQuestionCard_dropzone__Eh6Ju:focus-visible {
+    outline: 2px solid #8b8b8b;
+    outline-offset: 2px
+}
+
+.ThreePQuestionCard_dropzoneIcon__egWis {
+    width: 32px;
+    height: 32px;
+    color: #8b8b8b
+}
+
+.ThreePQuestionCard_dropzoneTitle__s7EMl {
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro;
+    color: #4e4e4e
+}
+
+.ThreePQuestionCard_dropzoneText__V9ABy {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b;
+    text-align: center
+}
+
+.ThreePQuestionCard_fileCounter__NDb6U {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.ThreePQuestionCard_fileCounterLabel__aONlP {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b
+}
+
+.ThreePQuestionCard_fileCounterValue__qgKCa {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro;
+    color: #4e4e4e
+}
+
+.ThreePQuestionCard_fileList__CwxCb {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.ThreePQuestionCard_fileItem__oi3ft {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background: #bebebe;
+    border-radius: 8px
+}
+
+.ThreePQuestionCard_fileName__3UbXq {
+    flex: 1;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #4e4e4e
+}
+
+.ThreePQuestionCard_fileRemove__5utF8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #e92027;
+    border-radius: 4px;
+    transition: background-color .15s ease
+}
+
+.ThreePQuestionCard_fileRemove__5utF8:hover {
+    background: #f8ede4
+}
+
+.ThreePQuestionCard_fileRemove__5utF8:disabled {
+    opacity: .5;
+    cursor: not-allowed
+}
+
+.ThreePQuestionCard_fileRemoveIcon__E87Et {
+    width: 16px;
+    height: 16px
+}
+
+.ThreePQuestionCard_uploadErrorBanner__XV_mJ {
+    margin-block-end: 12px
+}
+
+.ThreePQuestionCard_notesSection__xQkvA {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 24px
+}
+
+.ThreePQuestionCard_notesLabel__0CJNR {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.ThreePQuestionCard_notesTextarea__5yDbc {
+    width: 100%;
+    min-height: 100px;
+    padding: 12px;
+    border: 1px solid #4e4e4e;
+    border-radius: 8px;
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+    resize: vertical;
+    transition: border-color .15s ease
+}
+
+.ThreePQuestionCard_notesTextarea__5yDbc::placeholder {
+    color: #8b8b8b
+}
+
+.ThreePQuestionCard_notesTextarea__5yDbc:focus {
+    outline: none;
+    border-color: #8b8b8b
+}
+
+.ThreePQuestionCard_notesTextarea__5yDbc:disabled {
+    background: #bebebe;
+    cursor: not-allowed
+}
+
+@media(max-width: 992px) {
+    .ThreePQuestionCard_outerContainer__LpH4X {
+        padding: 18px 0 18px 18px
+    }
+
+    .ThreePQuestionCard_container__sx6l0 {
+        padding: 24px;
+        border-radius: 28px;
+        box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, .1)
+    }
+
+    .ThreePQuestionCard_revisionChip__qNlby {
+        padding: 2px 12px
+    }
+
+    .ThreePQuestionCard_revisionChipText__HvEYk {
+        font: normal 500 14px/20px Neue Haas Grotesk Display Pro
+    }
+
+    .ThreePQuestionCard_header__oF6_i {
+        padding: 8px 12px
+    }
+
+    .ThreePQuestionCard_headerIcon__PgM6g {
+        width: 20px;
+        height: 20px
+    }
+
+    .ThreePQuestionCard_headerTitle__qsfuA {
+        font: normal 700 14px/20px Neue Haas Grotesk Display Pro
+    }
+
+    .ThreePQuestionCard_content__tSM_A {
+        gap: 12px;
+        padding: 12px
+    }
+
+    .ThreePQuestionCard_description__0kdMx {
+        font: normal 400 14px/20px Neue Haas Grotesk Display Pro
+    }
+
+    .ThreePQuestionCard_dropzone__Eh6Ju {
+        padding: 16px
+    }
+
+    .ThreePQuestionCard_tooltip__03jij {
+        min-width: 160px;
+        max-width: 240px
+    }
+
+    .ThreePQuestionCard_containerBadge__Q_xVR {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font: normal 700 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(max-width: 639px) {
+    .ThreePQuestionCard_outerContainer__LpH4X {
+        padding: 16px 0 16px 16px
+    }
+
+    .ThreePQuestionCard_containerBadge__Q_xVR {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font: normal 700 16px/24px Neue Haas Grotesk Display Pro
+    }
+
+    .ThreePQuestionCard_container__sx6l0 {
+        padding: 24px;
+        border-radius: 12px;
+        box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, .1)
+    }
+
+    .ThreePQuestionCard_revisionChip__qNlby {
+        padding: 2px 12px
+    }
+
+    .ThreePQuestionCard_revisionChipText__HvEYk {
+        font: normal 500 14px/20px Neue Haas Grotesk Display Pro;
+        font-weight: 600
+    }
+
+    .ThreePQuestionCard_header__oF6_i {
+        padding: 8px;
+        gap: 6px
+    }
+
+    .ThreePQuestionCard_headerIcon__PgM6g {
+        width: 20px;
+        height: 20px
+    }
+
+    .ThreePQuestionCard_icon__7z1ii {
+        width: 12px;
+        height: 12px
+    }
+
+    .ThreePQuestionCard_headerTitle__qsfuA {
+        font: normal 700 12px/18px Neue Haas Grotesk Display Pro
+    }
+
+    .ThreePQuestionCard_content__tSM_A {
+        gap: 8px;
+        padding: 8px
+    }
+
+    .ThreePQuestionCard_description__0kdMx {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+        color: #000;
+        margin-bottom: 16px
+    }
+
+    .ThreePQuestionCard_likertSection__95iUu {
+        margin-top: 12px;
+        padding: 16px;
+        border-radius: 16px
+    }
+
+    .ThreePQuestionCard_likertButton__KOMT_ {
+        width: 20px;
+        height: 20px
+    }
+
+    .ThreePQuestionCard_evidenceSection__bqwJ7 {
+        margin-top: 12px
+    }
+
+    .ThreePQuestionCard_dropzone__Eh6Ju {
+        padding: 16px
+    }
+
+    .ThreePQuestionCard_dropzoneIcon__egWis {
+        width: 24px;
+        height: 24px
+    }
+
+    .ThreePQuestionCard_dropzoneTitle__s7EMl {
+        font: normal 500 14px/20px Neue Haas Grotesk Display Pro
+    }
+
+    .ThreePQuestionCard_dropzoneText__V9ABy {
+        font: normal 400 12px/18px Neue Haas Grotesk Display Pro
+    }
+
+    .ThreePQuestionCard_tooltip__03jij {
+        min-width: 140px;
+        max-width: 200px;
+        padding: 8px
+    }
+}
+
+.ThreePQuestionCard_reviewModeSection__oVnym {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    background: #f1f1f1;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #fea7a8
+}
+
+.ThreePQuestionCard_reviewModeHeader__M0p5R {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap
+}
+
+.ThreePQuestionCard_reviewStatusBadge__GFUcA {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 16px;
+    border-radius: 16px;
+    font: normal 700 16px/24px Neue Haas Grotesk Display Pro;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.ThreePQuestionCard_reviewStatusBadge__GFUcA.ThreePQuestionCard_reviewStatus--pending__rocTt {
+    background: #cfc41c
+}
+
+.ThreePQuestionCard_reviewStatusBadge__GFUcA.ThreePQuestionCard_reviewStatus--approved__cufak {
+    background: #075426
+}
+
+.ThreePQuestionCard_reviewStatusBadge__GFUcA.ThreePQuestionCard_reviewStatus--rejected__jcX1l {
+    background: #e92027
+}
+
+.ThreePQuestionCard_reviewActionButtons__Tr5EQ {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap
+}
+
+.ThreePQuestionCard_reviewButton__neduy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font: normal 700 16px/24px Neue Haas Grotesk Display Pro;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+    border: none;
+    min-width: 100px
+}
+
+.ThreePQuestionCard_reviewButton__neduy:disabled {
+    opacity: .5;
+    cursor: not-allowed
+}
+
+.ThreePQuestionCard_buttonIcon__GN8MS {
+    width: 18px;
+    height: 18px
+}
+
+.ThreePQuestionCard_reviewButtonApprove__ASmnz {
+    background: #075426;
+    color: #fff
+}
+
+.ThreePQuestionCard_reviewButtonApprove__ASmnz:active:not(:disabled),
+.ThreePQuestionCard_reviewButtonApprove__ASmnz:hover:not(:disabled) {
+    background: #053819
+}
+
+.ThreePQuestionCard_reviewButtonReject__9bGo6 {
+    background: #e92027;
+    color: #fff
+}
+
+.ThreePQuestionCard_reviewButtonReject__9bGo6:hover:not(:disabled) {
+    background: #a0030f
+}
+
+.ThreePQuestionCard_reviewButtonReject__9bGo6:active:not(:disabled) {
+    background: #1c1a46
+}
+
+.ThreePQuestionCard_reviewerInfo__1YQbN {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    background: #fff;
+    border-radius: 8px
+}
+
+.ThreePQuestionCard_reviewerInfoRow__nMI1o {
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.ThreePQuestionCard_reviewerLabel__Xvcy8 {
+    font: normal 700 16px/24px Neue Haas Grotesk Display Pro;
+    color: #4e4e4e
+}
+
+.ThreePQuestionCard_reviewerName__XaotU {
+    font: normal 500 18px/28px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.ThreePQuestionCard_reviewNotesBox__i_fzN {
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.ThreePQuestionCard_reviewNotesText__7l8N5 {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0;
+    line-height: 1.5;
+    white-space: pre-wrap
+}
+
+@media(max-width: 768px) {
+    .ThreePQuestionCard_reviewModeHeader__M0p5R {
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .ThreePQuestionCard_reviewActionButtons__Tr5EQ {
+        width: 100%;
+        flex-direction: column
+    }
+
+    .ThreePQuestionCard_reviewButton__neduy {
+        width: 100%
+    }
+}
+
+.ThreePQuestionCard_reviewFilesSection__XyMHp {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    background: #f1f1f1;
+    border-radius: 8px;
+    border: 1px solid #656565
+}
+
+.ThreePQuestionCard_reviewFilesHeader__vWOIU {
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.ThreePQuestionCard_filesIcon__D2ssu {
+    width: 20px;
+    height: 20px;
+    color: #4e4e4e
+}
+
+.ThreePQuestionCard_reviewFilesLabel__tWefv {
+    font: normal 700 16px/24px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.ThreePQuestionCard_reviewFilesList__8J_gK {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.ThreePQuestionCard_reviewFileItem__L0HEm {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #656565;
+    transition: all .15s ease
+}
+
+.ThreePQuestionCard_reviewFileItem__L0HEm:hover {
+    border-color: #4e4e4e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .05)
+}
+
+.ThreePQuestionCard_filePreviewThumb__ySS_E {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #bebebe
+}
+
+.ThreePQuestionCard_thumbImage__fHLZM {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.ThreePQuestionCard_fileIconThumb__GiK_H {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    background: #bebebe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0
+}
+
+.ThreePQuestionCard_fileIcon__yrAKX {
+    width: 32px;
+    height: 32px;
+    color: #8b8b8b
+}
+
+.ThreePQuestionCard_fileInfo__zFa62 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0
+}
+
+.ThreePQuestionCard_fileName__3UbXq {
+    font: normal 500 18px/28px Neue Haas Grotesk Display Pro;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.ThreePQuestionCard_fileSize__3VjPy,
+.ThreePQuestionCard_fileType__BzT9d {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b
+}
+
+.ThreePQuestionCard_fileType__BzT9d {
+    text-transform: uppercase
+}
+
+.ThreePQuestionCard_fileActions__ZaxhA {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0
+}
+
+.ThreePQuestionCard_fileActionButton__lLlZH {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: #bebebe;
+    border: 1px solid #656565;
+    cursor: pointer;
+    transition: all .15s ease;
+    text-decoration: none
+}
+
+.ThreePQuestionCard_fileActionButton__lLlZH:hover {
+    background: #f9f9f9;
+    border-color: #a3a3a3
+}
+
+.ThreePQuestionCard_fileActionButton__lLlZH:hover .ThreePQuestionCard_actionIcon__YsjZY {
+    color: #a3a3a3
+}
+
+.ThreePQuestionCard_fileActionButton__lLlZH:active {
+    transform: scale(.95)
+}
+
+.ThreePQuestionCard_actionIcon__YsjZY {
+    width: 20px;
+    height: 20px;
+    color: #4e4e4e;
+    transition: color .15s ease
+}
+
+@media(max-width: 639px) {
+    .ThreePQuestionCard_reviewFileItem__L0HEm {
+        flex-wrap: wrap
+    }
+
+    .ThreePQuestionCard_fileIconThumb__GiK_H,
+    .ThreePQuestionCard_filePreviewThumb__ySS_E {
+        width: 48px;
+        height: 48px
+    }
+
+    .ThreePQuestionCard_fileIcon__yrAKX {
+        width: 24px;
+        height: 24px
+    }
+
+    .ThreePQuestionCard_fileActions__ZaxhA {
+        width: 100%;
+        justify-content: flex-end
+    }
+
+    .ThreePQuestionCard_fileActionButton__lLlZH {
+        width: 36px;
+        height: 36px
+    }
+
+    .ThreePQuestionCard_actionIcon__YsjZY {
+        width: 18px;
+        height: 18px
+    }
+}
+
+.Modal_modalOverlay__699GK {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 8px 24px;
+    overflow-y: auto
+}
+
+.Modal_modalContent__1Vrem {
+    background: #f1f1f1;
+    box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, .24);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 540px;
+    max-height: 90vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 32px
+}
+
+.Modal_modalBody__DCaRm {
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+    min-height: 0
+}
+
+.Modal_modalBody__DCaRm,
+.Modal_modalHeader__l_Rcf {
+    display: flex;
+    align-items: center;
+    align-self: stretch
+}
+
+.Modal_modalHeader__l_Rcf {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 4px
+}
+
+.Modal_modalTitle__o8XH7 {
+    margin: 0;
+    flex: 1;
+    font: normal 700 18px/28px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.Modal_modalCloseButton__xxrJf {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 8px;
+    margin: 0;
+    transition: background-color .2s ease
+}
+
+.Modal_modalCloseButton__xxrJf:hover {
+    background-color: rgba(0, 0, 0, .05)
+}
+
+.Modal_modalCloseButton__xxrJf:active {
+    background-color: rgba(0, 0, 0, .1)
+}
+
+.Modal_modalCloseButton__xxrJf svg {
+    width: 24px;
+    height: 24px;
+    color: #000
+}
+
+.Modal_modalIllustration__3Hp33 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 96px;
+    background-color: #d4d4d4;
+    border-radius: 50%
+}
+
+.Modal_modalIllustration__3Hp33 svg {
+    width: 100%;
+    height: 100%
+}
+
+.Modal_modalDescription__dsQOz {
+    align-self: stretch;
+    width: 100%;
+    line-height: inherit;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.Modal_modalDescription__dsQOz p {
+    margin: 0
+}
+
+.Modal_modalDescriptionCentered__bg7_Z,
+.Modal_modalTitleCentered__MQHOI {
+    text-align: center
+}
+
+.Modal_modalFooter__Vl9PS {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: stretch;
+    gap: 8px;
+    flex-shrink: 0
+}
+
+.Modal_modalContent--mobile__yAiEn {
+    border-radius: 8px;
+    padding: 20px;
+    gap: 32px
+}
+
+.Modal_modalContent--mobile__yAiEn .Modal_modalBody__DCaRm {
+    gap: 16px
+}
+
+.Modal_modalContent--mobile__yAiEn .Modal_modalTitle__o8XH7 {
+    font: normal 700 18px/28px Neue Haas Grotesk Display Pro
+}
+
+.Modal_modalContent--mobile__yAiEn .Modal_modalDescription__dsQOz {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.Modal_modalContent--mobile__yAiEn .Modal_modalCloseButton__xxrJf svg {
+    width: 24px;
+    height: 24px
+}
+
+.Modal_modalContent--mobile__yAiEn .Modal_modalFooter__Vl9PS {
+    gap: 8px
+}
+
+.Modal_modalContent--tablet__pPq2b {
+    border-radius: 12px;
+    padding: 20px;
+    gap: 52px
+}
+
+.Modal_modalContent--tablet__pPq2b .Modal_modalBody__DCaRm {
+    gap: 18px
+}
+
+.Modal_modalContent--tablet__pPq2b .Modal_modalTitle__o8XH7 {
+    font: normal 700 20px/32px Neue Haas Grotesk Display Pro
+}
+
+.Modal_modalContent--tablet__pPq2b .Modal_modalDescription__dsQOz {
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+}
+
+.Modal_modalContent--tablet__pPq2b .Modal_modalCloseButton__xxrJf svg {
+    width: 24px;
+    height: 24px
+}
+
+.Modal_modalContent--tablet__pPq2b .Modal_modalFooter__Vl9PS {
+    gap: 12px
+}
+
+.Modal_modalContent--desktop__5T8qF {
+    border-radius: 16px;
+    padding: 24px;
+    gap: 60px
+}
+
+.Modal_modalContent--desktop__5T8qF .Modal_modalBody__DCaRm {
+    gap: 32px
+}
+
+.Modal_modalContent--desktop__5T8qF .Modal_modalHeader__l_Rcf {
+    gap: 4px
+}
+
+.Modal_modalContent--desktop__5T8qF .Modal_modalTitle__o8XH7 {
+    font: normal 700 24px/36px Neue Haas Grotesk Display Pro
+}
+
+.Modal_modalContent--desktop__5T8qF .Modal_modalDescription__dsQOz {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+}
+
+.Modal_modalContent--desktop__5T8qF .Modal_modalCloseButton__xxrJf svg {
+    width: 24px;
+    height: 24px
+}
+
+.Modal_modalContent--desktop__5T8qF .Modal_modalFooter__Vl9PS {
+    gap: 16px
+}
+
+.SearchInput_searchInput__ju_L7 {
+    position: relative;
+    width: 100%
+}
+
+.SearchInput_inputWrapper__cfOXi {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    border: 1px solid #8b8b8b;
+    border-radius: 40px;
+    padding: 10px 12px;
+    min-height: 40px;
+    transition: all .2s ease;
+    box-sizing: border-box
+}
+
+.SearchInput_searchIcon__y_Jiz {
+    flex-shrink: 0;
+    color: #8b8b8b;
+    width: 20px;
+    height: 20px
+}
+
+.SearchInput_input__8xSgo {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0);
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+    color: #000;
+    padding: 0;
+    min-width: 0
+}
+
+.SearchInput_input__8xSgo::placeholder {
+    color: #8b8b8b
+}
+
+.SearchInput_input__8xSgo:disabled {
+    color: #8b8b8b;
+    cursor: not-allowed
+}
+
+.SearchInput_caret__pRq_Y {
+    width: 1px;
+    height: 16px;
+    background: #1d1d1d;
+    animation: SearchInput_blink___XD9o 1s infinite;
+    margin-left: 4px
+}
+
+@keyframes SearchInput_blink___XD9o {
+
+    0%,
+    50% {
+        opacity: 1
+    }
+
+    51%,
+    to {
+        opacity: 0
+    }
+}
+
+.SearchInput_searchInput--default__HCpgI .SearchInput_inputWrapper__cfOXi {
+    border-color: #8b8b8b
+}
+
+.SearchInput_searchInput--hover__GrLDZ .SearchInput_inputWrapper__cfOXi {
+    border-color: #353535
+}
+
+.SearchInput_searchInput--focused__829Xp .SearchInput_inputWrapper__cfOXi {
+    position: relative
+}
+
+.SearchInput_searchInput--focused__829Xp .SearchInput_inputWrapper__cfOXi:before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border: 2px solid #d4d4d4;
+    border-radius: 40px;
+    pointer-events: none
+}
+
+.SearchInput_searchInput--focused__829Xp .SearchInput_inputWrapper__cfOXi {
+    border-color: #353535
+}
+
+.SearchInput_searchInput--filled__tAvaU .SearchInput_input__8xSgo {
+    color: #000
+}
+
+.SearchInput_searchInput--disabled__frnXf .SearchInput_inputWrapper__cfOXi {
+    background: #d4d4d4;
+    border-color: #8b8b8b
+}
+
+.SearchInput_searchInput--disabled__frnXf .SearchInput_input__8xSgo,
+.SearchInput_searchInput--disabled__frnXf .SearchInput_searchIcon__y_Jiz {
+    color: #8b8b8b
+}
+
+.Widget_widget__qFT9Z {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 100%;
+    padding: 24px;
+    background: #f9f9f9;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    gap: 32px;
+    margin-bottom: 24px
+}
+
+.Widget_widget--fullWidth__lh_zl {
+    width: 100%
+}
+
+.Widget_widget--bgWhite__ZMZsI {
+    background: #fff;
+    border: none
+}
+
+.Widget_widget__header__AvXkN {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap
+}
+
+.Widget_widget__titleRow__AcQ0I {
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.Widget_widget__icon__gwQ_r {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    color: #2f3176;
+    flex-shrink: 0
+}
+
+.Widget_widget__icon__gwQ_r svg {
+    width: 36px;
+    height: 36px
+}
+
+.Widget_widget__icon__gwQ_r svg path {
+    fill: #2f3176
+}
+
+.Widget_widget__titleGroup__ZmU17 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px
+}
+
+.Widget_widget__title__3q0Y2 {
+    font: normal 500 20px/32px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0
+}
+
+.Widget_widget__title--clickable__sR3fl {
+    cursor: pointer;
+    transition: color .15s ease-in-out
+}
+
+.Widget_widget__title--clickable__sR3fl:hover {
+    color: #2f3176;
+    text-decoration: underline
+}
+
+.Widget_widget__title--clickable__sR3fl:focus-visible {
+    outline: 2px solid #2f3176;
+    outline-offset: 2px;
+    border-radius: 8px
+}
+
+.Widget_widget__subtitle__NcZlG {
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b
+}
+
+.Widget_widget__headerContent__Asq9n {
+    display: flex;
+    align-items: center;
+    margin-left: auto
+}
+
+.Widget_widget__controls__D8IPO {
+    display: flex;
+    align-items: center;
+    gap: 16px
+}
+
+.Widget_widget__actionButton__yLQQk {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: #e92027;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro;
+    cursor: pointer;
+    transition: background .15s ease-in-out
+}
+
+.Widget_widget__actionButton__yLQQk:hover {
+    background: #a0030f
+}
+
+.Widget_widget__actionButton__yLQQk:focus {
+    outline: 2px solid #2f3176;
+    outline-offset: 2px
+}
+
+.Widget_widget__actionIcon__5ys_u {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.Widget_widget__actionIcon__5ys_u svg {
+    width: 16px;
+    height: 16px
+}
+
+.Widget_widget__filter__kKLGY {
+    width: 180px
+}
+
+.Widget_widget__content__syTso {
+    flex: 1
+}
+
+.Placeholder_placeholder__6_bk1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px;
+    background: #fff;
+    border: 1px dashed #4e4e4e;
+    text-align: center
+}
+
+.Placeholder_placeholder--desktop__vsZP_ {
+    border-radius: 20px
+}
+
+.Placeholder_placeholder--desktop__vsZP_ .Placeholder_placeholder__title__jvEdX {
+    font: normal 500 20px/32px Neue Haas Grotesk Display Pro
+}
+
+.Placeholder_placeholder--desktop__vsZP_ .Placeholder_placeholder__description__bsKvl {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+}
+
+.Placeholder_placeholder--tablet__OAnCM {
+    border-radius: 18px
+}
+
+.Placeholder_placeholder--tablet__OAnCM .Placeholder_placeholder__title__jvEdX {
+    font: normal 500 18px/28px Neue Haas Grotesk Display Pro
+}
+
+.Placeholder_placeholder--tablet__OAnCM .Placeholder_placeholder__description__bsKvl {
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+}
+
+.Placeholder_placeholder--mobile__mwGQB {
+    border-radius: 16px
+}
+
+.Placeholder_placeholder--mobile__mwGQB .Placeholder_placeholder__title__jvEdX {
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro
+}
+
+.Placeholder_placeholder--mobile__mwGQB .Placeholder_placeholder__description__bsKvl {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.Placeholder_placeholder__title__jvEdX {
+    color: #000
+}
+
+.Placeholder_placeholder__description__bsKvl {
+    color: #4e4e4e
+}
+
+.ProgressBar_progressBar__mhB_6 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10px;
+    background: #d4d4d4;
+    border-radius: 24px;
+    overflow: hidden
+}
+
+.ProgressBar_progressBar__bar__XFTYF {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 24px;
+    transition: width .25s ease-in-out, background-color .25s ease-in-out
+}
+
+.ProgressBar_progressBar__bar--excellent__U2Dm3 {
+    background: #000
+}
+
+.ProgressBar_progressBar__bar--good__6A3ZQ {
+    background: #8b8b8b
+}
+
+.ProgressBar_progressBar__bar--fair__Bh3bZ {
+    background: #ffd2d2
+}
+
+.ProgressBar_progressBar__bar--poor__Cdr8g {
+    background: #e92027
+}
+
+.CardRank_cardRank__onIun {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+    height: 96px;
+    padding: 16px;
+    border-radius: 20px;
+    transition: all .15s ease-in-out
+}
+
+.CardRank_cardRank__onIun[role=button] {
+    cursor: pointer
+}
+
+.CardRank_cardRank__onIun[role=button]:hover {
+    transform: translateY(-2px);
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .08)
+}
+
+.CardRank_cardRank--default__hq_aS {
+    background: #fff
+}
+
+.CardRank_cardRank--default__hq_aS .CardRank_cardRank__score__jeUXc {
+    color: #000
+}
+
+.CardRank_cardRank--alert__gOgUd {
+    background: #f8ede4
+}
+
+.CardRank_cardRank--alert__gOgUd .CardRank_cardRank__score__jeUXc {
+    color: #a0030f
+}
+
+.CardRank_cardRank__text__R6IYX {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+    min-width: 0
+}
+
+.CardRank_cardRank__company__BoXP6 {
+    font: normal 500 20px/32px Neue Haas Grotesk Display Pro;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.CardRank_cardRank__cluster__0XDbM {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+    color: #4e4e4e;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.CardRank_cardRank__data__VVQZ_ {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+    flex-shrink: 0
+}
+
+.CardRank_cardRank__score__jeUXc {
+    font: normal 500 20px/32px Neue Haas Grotesk Display Pro
+}
+
+.CardMetrics_cardMetrics__Sq6Kv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: auto;
+    min-width: 260px;
+    height: auto;
+    min-height: 158px;
+    padding: 24px;
+    border-radius: 24px;
+    flex-shrink: 0;
+    transition: border-color .15s ease-in-out, border-width .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.CardMetrics_cardMetrics--grey__fFlcE {
+    background: #f9f9f9;
+    border: 1px solid #fff
+}
+
+.CardMetrics_cardMetrics--light__40lCX {
+    min-width: 186px
+}
+
+.CardMetrics_cardMetrics--light__40lCX,
+.CardMetrics_cardMetrics--outlined__DTVAi {
+    background: #fff;
+    border: 1px solid #d4d4d4
+}
+
+.CardMetrics_cardMetrics--active__mvU_O {
+    border: 2px solid #2f3176;
+    box-shadow: 0 0 0 2px rgba(47, 49, 118, .15)
+}
+
+.CardMetrics_cardMetrics--clickable__Lp_i1 {
+    cursor: pointer;
+    font: inherit;
+    text-align: left;
+    appearance: none
+}
+
+.CardMetrics_cardMetrics--clickable__Lp_i1:hover:not(.CardMetrics_cardMetrics--clickable--active__yo45f) {
+    border-color: #a3a3a3;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .08)
+}
+
+.CardMetrics_cardMetrics--clickable__Lp_i1:focus {
+    outline: 2px solid #2f3176;
+    outline-offset: 2px
+}
+
+.CardMetrics_cardMetrics--clickable__Lp_i1:focus:not(:focus-visible) {
+    outline: none
+}
+
+.CardMetrics_cardMetrics--clickable__Lp_i1:focus-visible {
+    outline: 2px solid #2f3176;
+    outline-offset: 2px
+}
+
+.CardMetrics_cardMetrics--compact__gJ9JX {
+    justify-content: flex-start
+}
+
+.CardMetrics_cardMetrics__compactFooter__XfbW1 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: auto
+}
+
+.CardMetrics_cardMetrics__compactHeader__hnrXx {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px
+}
+
+.CardMetrics_cardMetrics__iconCompact__cCXmx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    background: linear-gradient(135deg, #e92027, #2b2768 90%)
+}
+
+.CardMetrics_cardMetrics__iconCompact__cCXmx svg {
+    width: 24px;
+    height: 24px
+}
+
+.CardMetrics_cardMetrics__iconCompact__cCXmx svg path {
+    fill: #fff
+}
+
+.CardMetrics_cardMetrics__content__pwA0V {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px
+}
+
+.CardMetrics_cardMetrics__titleData__yhbXn {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+    min-width: 0
+}
+
+.CardMetrics_cardMetrics__title__NezyH {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+    color: #4e4e4e;
+    margin: 0
+}
+
+.CardMetrics_cardMetrics__value__9AG8v {
+    font: normal 500 32px/44px Neue Haas Grotesk Display Pro;
+    color: #000;
+    line-height: 1.2
+}
+
+.CardMetrics_cardMetrics__icon__1eLE2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #2f3176;
+    border-radius: 16px;
+    background: #fff;
+    flex-shrink: 0
+}
+
+.CardMetrics_cardMetrics__icon--plain__JLHhA {
+    border: none;
+    background: rgba(0, 0, 0, 0)
+}
+
+.CardMetrics_cardMetrics__icon--plain__JLHhA svg {
+    width: 60px;
+    height: 60px
+}
+
+.CardMetrics_cardMetrics__icon--default__jGjg2 svg {
+    width: 40px;
+    height: 40px
+}
+
+.CardMetrics_cardMetrics__icon--default__jGjg2 svg path {
+    fill: #2f3176
+}
+
+.CardMetrics_cardMetrics__info__rLNle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin-top: auto
+}
+
+.CardMetrics_cardMetrics__description__NHQXE {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b;
+    flex: 1;
+    min-height: 1.5em
+}
+
+.CardMetrics_cardMetrics__progress__uRpby {
+    margin-top: 8px;
+    width: 100%
+}
+
+.CardChampion_cardChampion__6man_ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 24px;
+    background: #eef3fb;
+    border: 1px solid #c8d8ef;
+    border-radius: 24px;
+    text-align: center
+}
+
+.CardChampion_cardChampion__title__GyUsF {
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro;
+    color: #4e4e4e;
+    text-transform: uppercase;
+    letter-spacing: .05em
+}
+
+.CardChampion_cardChampion__score__mWEIo {
+    font: normal 500 32px/44px Neue Haas Grotesk Display Pro;
+    color: #000;
+    line-height: 1.1
+}
+
+.CardChampion_cardChampion__subtitle__f9APN {
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b
+}
+
+.CardChampion_cardChampion__badge__Rwab4 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    padding: 8px 16px;
+    background: #2f3176;
+    color: #fff;
+    border-radius: 100px;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    font-weight: 500
+}
+
+.CardChampion_cardChampion__badgeIcon__aeuZY {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px
+}
+
+.CardChampion_cardChampion__badgeIcon__aeuZY svg {
+    width: 100%;
+    height: 100%
+}
+
+.CardLeaderboard_cardLeaderboard__ZYPGG {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 260px;
+    min-width: 260px;
+    flex-shrink: 0;
+    align-self: stretch;
+    padding: 24px;
+    border-radius: 24px;
+    text-align: center;
+    transition: all .15s ease-in-out
+}
+
+.CardLeaderboard_cardLeaderboard__ZYPGG[role=button] {
+    cursor: pointer
+}
+
+.CardLeaderboard_cardLeaderboard__ZYPGG[role=button]:hover {
+    transform: translateY(-4px);
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .15)
+}
+
+.CardLeaderboard_cardLeaderboard--primary__JvakO {
+    background: linear-gradient(135deg, #e92027, #2b2768 90%)
+}
+
+.CardLeaderboard_cardLeaderboard--primary__JvakO .CardLeaderboard_cardLeaderboard__cluster__oje27,
+.CardLeaderboard_cardLeaderboard--primary__JvakO .CardLeaderboard_cardLeaderboard__company__3vDkJ,
+.CardLeaderboard_cardLeaderboard--primary__JvakO .CardLeaderboard_cardLeaderboard__score__NRrwg {
+    color: #fff
+}
+
+.CardLeaderboard_cardLeaderboard--primary__JvakO .CardLeaderboard_cardLeaderboard__cluster__oje27 {
+    opacity: .8
+}
+
+.CardLeaderboard_cardLeaderboard--secondary__lN8_q {
+    background: #fff;
+    border: 1px solid #be2326
+}
+
+.CardLeaderboard_cardLeaderboard--secondary__lN8_q .CardLeaderboard_cardLeaderboard__company__3vDkJ,
+.CardLeaderboard_cardLeaderboard--secondary__lN8_q .CardLeaderboard_cardLeaderboard__score__NRrwg {
+    color: #000
+}
+
+.CardLeaderboard_cardLeaderboard--secondary__lN8_q .CardLeaderboard_cardLeaderboard__cluster__oje27 {
+    color: #4e4e4e
+}
+
+.CardLeaderboard_cardLeaderboard__illustration__BC5v8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 128px;
+    height: 128px;
+    flex-shrink: 0
+}
+
+.CardLeaderboard_cardLeaderboard__illustration__BC5v8 img,
+.CardLeaderboard_cardLeaderboard__illustration__BC5v8 svg {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.CardLeaderboard_cardLeaderboard__content__K3p_Y {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    min-width: 0
+}
+
+.CardLeaderboard_cardLeaderboard__cluster__oje27 {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+}
+
+.CardLeaderboard_cardLeaderboard__cluster__oje27,
+.CardLeaderboard_cardLeaderboard__company__3vDkJ {
+    text-align: center;
+    width: 100%;
+    min-width: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word
+}
+
+.CardLeaderboard_cardLeaderboard__company__3vDkJ {
+    font: normal 500 20px/32px Neue Haas Grotesk Display Pro
+}
+
+.CardLeaderboard_cardLeaderboard__score__NRrwg {
+    font: normal 500 32px/44px Neue Haas Grotesk Display Pro;
+    text-align: center;
+    width: 100%;
+    min-width: 0
+}
+
+.CardLeaderboard_cardLeaderboard--compact__9__1L {
+    width: 220px;
+    min-width: 220px;
+    gap: 12px;
+    padding: 16px
+}
+
+.CardLeaderboard_cardLeaderboard--compact__9__1L .CardLeaderboard_cardLeaderboard__illustration__BC5v8 {
+    width: 96px;
+    height: 96px
+}
+
+.CardLeaderboard_cardLeaderboard--compact__9__1L .CardLeaderboard_cardLeaderboard__cluster__oje27 {
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+}
+
+.CardLeaderboard_cardLeaderboard--compact__9__1L .CardLeaderboard_cardLeaderboard__company__3vDkJ {
+    font: normal 500 18px/28px Neue Haas Grotesk Display Pro
+}
+
+.CardLeaderboard_cardLeaderboard--compact__9__1L .CardLeaderboard_cardLeaderboard__score__NRrwg {
+    font: normal 700 24px/36px Neue Haas Grotesk Display Pro
+}
+
+.CardLeaderboard_cardLeaderboard--fullWidth__P0NAu {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0
+}
+
+.Stepper_stepper__M110G {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px
+}
+
+.Stepper_step__O9Wtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    transition: all .2s ease;
+    padding: 0
+}
+
+.Stepper_stepLabel__4u257 {
+    text-align: center;
+    white-space: nowrap
+}
+
+.Stepper_step--desktop__TBm4b {
+    width: 28px;
+    height: 28px
+}
+
+.Stepper_step--desktop__TBm4b .Stepper_stepLabel__4u257 {
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro
+}
+
+.Stepper_step--tablet__hDuoB {
+    width: 24px;
+    height: 24px
+}
+
+.Stepper_step--tablet__hDuoB .Stepper_stepLabel__4u257 {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.Stepper_step--mobile__UEMYS {
+    width: 20px;
+    height: 20px
+}
+
+.Stepper_step--mobile__UEMYS .Stepper_stepLabel__4u257 {
+    font: normal 500 12px/18px Neue Haas Grotesk Display Pro
+}
+
+.Stepper_step--done__NAp4Y {
+    background: #fff;
+    color: #000;
+    border: none
+}
+
+.Stepper_step--active__Gs8uR {
+    background: #fea7a8;
+    border: none;
+    color: #000
+}
+
+.Stepper_step--inactive__kc8hR {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    color: #fff
+}
+
+.Stepper_step--clickable__x1PlY {
+    cursor: pointer
+}
+
+.Stepper_step--clickable__x1PlY:hover {
+    opacity: .85;
+    transform: scale(1.05)
+}
+
+.Stepper_step--clickable__x1PlY:active {
+    transform: scale(.95)
+}
+
+.Stepper_step--clickable__x1PlY:focus-visible {
+    outline: 2px solid #419a99;
+    outline-offset: 2px
+}
+
+.Stepper_stepLine__PUPkp {
+    flex-grow: 1;
+    height: 1px;
+    flex-shrink: 0;
+    min-width: 100px;
+    min-height: 1px;
+    position: relative
+}
+
+.Stepper_stepLine--done__ZDqDO {
+    background: #fff
+}
+
+.Stepper_stepLine--inactive__dIk2G {
+    background: #fea7a8
+}
+
+@media(max-width: 768px) {
+    .Stepper_stepper__M110G {
+        gap: 4px
+    }
+
+    .Stepper_step--desktop__TBm4b,
+    .Stepper_step--tablet__hDuoB {
+        width: 24px;
+        height: 24px
+    }
+
+    .Stepper_step--desktop__TBm4b .Stepper_stepLabel__4u257,
+    .Stepper_step--tablet__hDuoB .Stepper_stepLabel__4u257 {
+        font: normal 500 14px/20px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(max-width: 480px) {
+    .Stepper_stepper__M110G {
+        gap: 4px
+    }
+
+    .Stepper_step--desktop__TBm4b,
+    .Stepper_step--mobile__UEMYS,
+    .Stepper_step--tablet__hDuoB {
+        width: 20px;
+        height: 20px
+    }
+
+    .Stepper_step--desktop__TBm4b .Stepper_stepLabel__4u257,
+    .Stepper_step--mobile__UEMYS .Stepper_stepLabel__4u257,
+    .Stepper_step--tablet__hDuoB .Stepper_stepLabel__4u257 {
+        font: normal 500 12px/18px Neue Haas Grotesk Display Pro
+    }
+}
+
+.ProgressIndicator_progressIndicator__1bMid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 282px;
+    gap: 8px
+}
+
+.ProgressIndicator_progressIndicator--mobile__4QYjc {
+    gap: 4px
+}
+
+.ProgressIndicator_progressIndicator--tablet__eXyNT {
+    gap: 6px
+}
+
+.ProgressIndicator_header__dhFgh {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%
+}
+
+.ProgressIndicator_countLabel__oF32D,
+.ProgressIndicator_percentageLabel__A6QRZ {
+    color: #000;
+    text-align: right
+}
+
+.ProgressIndicator_progressIndicator--desktop__lTXRh .ProgressIndicator_countLabel__oF32D,
+.ProgressIndicator_progressIndicator--desktop__lTXRh .ProgressIndicator_percentageLabel__A6QRZ {
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro
+}
+
+.ProgressIndicator_progressIndicator--desktop__lTXRh .ProgressIndicator_progressTrack__KztEh {
+    height: 12px
+}
+
+.ProgressIndicator_progressIndicator--tablet__eXyNT .ProgressIndicator_countLabel__oF32D,
+.ProgressIndicator_progressIndicator--tablet__eXyNT .ProgressIndicator_percentageLabel__A6QRZ {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.ProgressIndicator_progressIndicator--tablet__eXyNT .ProgressIndicator_progressTrack__KztEh {
+    height: 10px
+}
+
+.ProgressIndicator_progressIndicator--mobile__4QYjc .ProgressIndicator_countLabel__oF32D,
+.ProgressIndicator_progressIndicator--mobile__4QYjc .ProgressIndicator_percentageLabel__A6QRZ {
+    font: normal 500 12px/18px Neue Haas Grotesk Display Pro
+}
+
+.ProgressIndicator_progressIndicator--mobile__4QYjc .ProgressIndicator_progressTrack__KztEh {
+    height: 8px
+}
+
+.ProgressIndicator_progressBar__MNQGd {
+    width: 100%
+}
+
+.ProgressIndicator_progressTrack__KztEh {
+    width: 100%;
+    background: #bebebe;
+    border-radius: 40px;
+    overflow: hidden
+}
+
+.ProgressIndicator_progressFill__PdlS5 {
+    height: 100%;
+    background: #4e4e4e;
+    border-radius: inherit;
+    transform-origin: left center;
+    transition: width .16s ease-out
+}
+
+.EmptyState_emptyState__Xp1FQ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center
+}
+
+.EmptyState_emptyState--desktop__sQOSQ {
+    gap: 24px
+}
+
+.EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateIllustration__ytEHO {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0
+}
+
+.EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateIllustration__ytEHO img,
+.EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateIllustration__ytEHO svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+
+.EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateContent__z3m2x {
+    gap: 12px
+}
+
+.EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateTitle__nHIDe {
+    font: normal 700 24px/36px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateDescription__crjr8 {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.EmptyState_emptyState--tablet__BzPMH {
+    gap: 20px
+}
+
+.EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateIllustration__ytEHO {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0
+}
+
+.EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateIllustration__ytEHO img,
+.EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateIllustration__ytEHO svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+
+.EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateContent__z3m2x {
+    gap: 4px
+}
+
+.EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateTitle__nHIDe {
+    font: normal 700 20px/32px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateDescription__crjr8 {
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.EmptyState_emptyState--mobile__JJBr9 {
+    gap: 20px
+}
+
+.EmptyState_emptyState--mobile__JJBr9 .EmptyState_emptyStateIllustration__ytEHO {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0
+}
+
+.EmptyState_emptyState--mobile__JJBr9 .EmptyState_emptyStateIllustration__ytEHO img,
+.EmptyState_emptyState--mobile__JJBr9 .EmptyState_emptyStateIllustration__ytEHO svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+
+.EmptyState_emptyState--mobile__JJBr9 .EmptyState_emptyStateContent__z3m2x {
+    gap: 6px
+}
+
+.EmptyState_emptyState--mobile__JJBr9 .EmptyState_emptyStateTitle__nHIDe {
+    font: normal 700 18px/28px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.EmptyState_emptyState--mobile__JJBr9 .EmptyState_emptyStateDescription__crjr8 {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.EmptyState_emptyStateIllustration__ytEHO {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.EmptyState_emptyStateContent__z3m2x {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    width: 100%
+}
+
+.EmptyState_emptyStateDescription__crjr8,
+.EmptyState_emptyStateTitle__nHIDe {
+    margin: 0;
+    text-align: center;
+    width: 100%
+}
+
+@media(max-width: 768px) {
+
+    .EmptyState_emptyState--desktop__sQOSQ,
+    .EmptyState_emptyState--tablet__BzPMH {
+        gap: 20px
+    }
+
+    .EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateIllustration__ytEHO,
+    .EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateIllustration__ytEHO {
+        width: 80px;
+        height: 80px
+    }
+
+    .EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateContent__z3m2x,
+    .EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateContent__z3m2x {
+        gap: 4px
+    }
+
+    .EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateTitle__nHIDe,
+    .EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateTitle__nHIDe {
+        font: normal 700 20px/32px Neue Haas Grotesk Display Pro
+    }
+
+    .EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateDescription__crjr8,
+    .EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateDescription__crjr8 {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(max-width: 480px) {
+
+    .EmptyState_emptyState--desktop__sQOSQ,
+    .EmptyState_emptyState--mobile__JJBr9,
+    .EmptyState_emptyState--tablet__BzPMH {
+        gap: 20px
+    }
+
+    .EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateIllustration__ytEHO,
+    .EmptyState_emptyState--mobile__JJBr9 .EmptyState_emptyStateIllustration__ytEHO,
+    .EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateIllustration__ytEHO {
+        width: 64px;
+        height: 64px
+    }
+
+    .EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateContent__z3m2x,
+    .EmptyState_emptyState--mobile__JJBr9 .EmptyState_emptyStateContent__z3m2x,
+    .EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateContent__z3m2x {
+        gap: 6px
+    }
+
+    .EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateTitle__nHIDe,
+    .EmptyState_emptyState--mobile__JJBr9 .EmptyState_emptyStateTitle__nHIDe,
+    .EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateTitle__nHIDe {
+        font: normal 700 18px/28px Neue Haas Grotesk Display Pro
+    }
+
+    .EmptyState_emptyState--desktop__sQOSQ .EmptyState_emptyStateDescription__crjr8,
+    .EmptyState_emptyState--mobile__JJBr9 .EmptyState_emptyStateDescription__crjr8,
+    .EmptyState_emptyState--tablet__BzPMH .EmptyState_emptyStateDescription__crjr8 {
+        font: normal 400 14px/20px Neue Haas Grotesk Display Pro
+    }
+}
+
+.Input_inputContainer__JvYEh {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%
+}
+
+.Input_label__e0iTF {
+    font: normal 700 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.Input_inputWrapper__rUnGy {
+    position: relative;
+    display: flex;
+    align-items: center
+}
+
+.Input_input__XpqJT {
+    width: 100%;
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+    color: #000;
+    background: #fff;
+    border: 1px solid #8b8b8b;
+    border-radius: 8px;
+    padding: 10px 12px;
+    transition: all .2s ease;
+    outline: none;
+    box-sizing: border-box
+}
+
+.Input_input__XpqJT::placeholder {
+    color: #8b8b8b
+}
+
+.Input_input__XpqJT:focus,
+.Input_input__XpqJT:hover:not(:disabled) {
+    border-color: #353535
+}
+
+.Input_input__XpqJT:disabled {
+    background: #d4d4d4;
+    border-color: #8b8b8b;
+    color: #8b8b8b;
+    cursor: not-allowed
+}
+
+.Input_input__XpqJT:disabled::placeholder {
+    color: #8b8b8b
+}
+
+.Input_input--form-field__vivHJ {
+    min-height: 40px
+}
+
+.Input_input--text-area__C_kVD {
+    resize: vertical;
+    min-height: auto;
+    font-family: Neue Haas Grotesk Display Pro
+}
+
+.Input_inputContainer--medium__33aeX .Input_input__XpqJT {
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+    padding: 8px 12px
+}
+
+.Input_inputContainer--medium__33aeX .Input_input--form-field__vivHJ {
+    min-height: 36px
+}
+
+.Input_inputContainer--medium__33aeX .Input_label__e0iTF {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.Input_inputContainer--large__AOxxh .Input_input__XpqJT {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+    padding: 10px 12px
+}
+
+.Input_inputContainer--large__AOxxh .Input_input--form-field__vivHJ {
+    min-height: 40px
+}
+
+.Input_inputContainer--large__AOxxh .Input_label__e0iTF {
+    font: normal 500 18px/28px Neue Haas Grotesk Display Pro
+}
+
+.Input_input--error__ds_5_ {
+    border-color: #fe7b7d
+}
+
+.Input_input--error__ds_5_:hover:not(:disabled) {
+    border-color: #be2326
+}
+
+.Input_input--error__ds_5_:focus {
+    border-color: #e92027
+}
+
+.Input_inputContainer--focused__5XVVD .Input_inputWrapper__rUnGy {
+    position: relative
+}
+
+.Input_inputContainer--focused__5XVVD .Input_inputWrapper__rUnGy:before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border: 2px solid #d4d4d4;
+    border-radius: 8px;
+    pointer-events: none
+}
+
+.Input_inputContainer--focused__5XVVD .Input_input__XpqJT {
+    border-color: #353535
+}
+
+.Input_inputContainer--focused__5XVVD.Input_inputContainer--error__EvcWN .Input_inputWrapper__rUnGy:before {
+    border-color: #ffd2d2
+}
+
+.Input_inputContainer--focused__5XVVD.Input_inputContainer--error__EvcWN .Input_input__XpqJT {
+    border-color: #e92027
+}
+
+.Input_inputContainer--filled__oF7S_ .Input_input__XpqJT {
+    color: #000
+}
+
+.Input_inputContainer--disabled__GNobL .Input_label__e0iTF {
+    color: #bebebe
+}
+
+.Input_inputContainer--disabled__GNobL .Input_input__XpqJT {
+    background: #d4d4d4;
+    border-color: #8b8b8b;
+    color: #8b8b8b
+}
+
+.Input_inputContainer--disabled__GNobL .Input_helperText__PwHyV {
+    color: #a3a3a3
+}
+
+.Input_rightIconContainer__M83tV {
+    position: absolute;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    pointer-events: none
+}
+
+.Input_iconButton__IWZtJ {
+    pointer-events: auto
+}
+
+.Input_helperText__PwHyV {
+    font: normal 400 12px/18px Neue Haas Grotesk Display Pro;
+    color: #8b8b8b;
+    margin-top: 2px
+}
+
+.Input_helperText--error__4gpXa {
+    color: #e92027
+}
+
+.TimePicker_timePickerContainer__EZRmZ {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%
+}
+
+.TimePicker_labelContainer__Nl1dD {
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.TimePicker_label__NPToD {
+    font: normal 700 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.TimePicker_required__iFLJ3 {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.TimePicker_inputWrapper__hXbzW {
+    position: relative;
+    display: flex;
+    align-items: center
+}
+
+.TimePicker_timePicker__0xrfZ {
+    width: 100%;
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+    color: #000;
+    background: #fff;
+    border: 1px solid #8b8b8b;
+    border-radius: 8px;
+    padding: 10px 12px;
+    min-height: 40px;
+    transition: all .2s ease;
+    outline: none;
+    box-sizing: border-box
+}
+
+.TimePicker_timePicker__0xrfZ::placeholder {
+    color: #8b8b8b
+}
+
+.TimePicker_timePicker__0xrfZ:focus,
+.TimePicker_timePicker__0xrfZ:hover:not(:disabled) {
+    border-color: #353535
+}
+
+.TimePicker_timePicker__0xrfZ:disabled {
+    background: #d4d4d4;
+    border-color: #8b8b8b;
+    color: #8b8b8b;
+    cursor: not-allowed
+}
+
+.TimePicker_timePicker__0xrfZ:disabled::placeholder {
+    color: #8b8b8b
+}
+
+.TimePicker_timePicker--error__ajE_d {
+    border-color: #e92027
+}
+
+.TimePicker_timePicker--error__ajE_d:hover:not(:disabled) {
+    border-color: #be2326
+}
+
+.TimePicker_timePicker--error__ajE_d:focus {
+    border-color: #e92027
+}
+
+.TimePicker_timePickerContainer--focused__11QUz .TimePicker_inputWrapper__hXbzW {
+    position: relative
+}
+
+.TimePicker_timePickerContainer--focused__11QUz .TimePicker_inputWrapper__hXbzW:before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border: 2px solid #d4d4d4;
+    border-radius: 8px;
+    pointer-events: none
+}
+
+.TimePicker_timePickerContainer--focused__11QUz .TimePicker_timePicker__0xrfZ {
+    border-color: #353535
+}
+
+.TimePicker_timePickerContainer--focused__11QUz.TimePicker_timePickerContainer--error__QQ3Mg .TimePicker_inputWrapper__hXbzW:before {
+    border-color: #ffd2d2
+}
+
+.TimePicker_timePickerContainer--focused__11QUz.TimePicker_timePickerContainer--error__QQ3Mg .TimePicker_timePicker__0xrfZ {
+    border-color: #e92027
+}
+
+.TimePicker_timePickerContainer--filled__aKNag .TimePicker_timePicker__0xrfZ {
+    color: #000
+}
+
+.TimePicker_timePickerContainer--disabled__mI8dR .TimePicker_label__NPToD,
+.TimePicker_timePickerContainer--disabled__mI8dR .TimePicker_required__iFLJ3 {
+    color: #bebebe
+}
+
+.TimePicker_timePickerContainer--disabled__mI8dR .TimePicker_timePicker__0xrfZ {
+    background: #d4d4d4;
+    border-color: #8b8b8b;
+    color: #8b8b8b
+}
+
+.TimePicker_helperText__SX55c {
+    font: normal 400 12px/18px Neue Haas Grotesk Display Pro;
+    color: #a3a3a3;
+    margin-top: 2px
+}
+
+.TimePicker_helperText--error__5djDq {
+    color: #e92027
+}
+
+.TimePickerItem_timePickerItem__oGR0B {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+    max-width: 120px;
+    overflow: hidden
+}
+
+.TimePickerItem_label__GkjOk {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    text-align: center
+}
+
+.TimePickerItem_timeInput__e_YgB {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 84px;
+    background: #fff;
+    border: 1px solid #354591;
+    border-radius: 8px;
+    transition: all .2s ease
+}
+
+.TimePickerItem_input__mEa2v {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    font: normal 500 44px/64px Neue Haas Grotesk Display Pro;
+    color: #000;
+    text-align: center;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    cursor: text
+}
+
+.TimePickerItem_input__mEa2v:disabled {
+    cursor: not-allowed;
+    color: #8b8b8b
+}
+
+.TimePickerItem_cursorIndicator__TuRmj {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1px;
+    height: 48px;
+    background: #000;
+    pointer-events: none;
+    animation: TimePickerItem_blink__vI6by 1s infinite
+}
+
+@keyframes TimePickerItem_blink__vI6by {
+
+    0%,
+    50% {
+        opacity: 1
+    }
+
+    51%,
+    to {
+        opacity: 0
+    }
+}
+
+.TimePickerItem_timePickerItem--default__GboDj .TimePickerItem_timeInput__e_YgB {
+    border-color: #354591
+}
+
+.TimePickerItem_timePickerItem--hover__pyS_P .TimePickerItem_timeInput__e_YgB {
+    background: #d4d4d4;
+    border-color: #2b2768
+}
+
+.TimePickerItem_timePickerItem--focused__uxELO .TimePickerItem_timeInput__e_YgB {
+    border-width: 2px;
+    border-color: #2b2768
+}
+
+.TimePickerItem_timePickerItem--focused__uxELO .TimePickerItem_cursorIndicator__TuRmj {
+    display: block
+}
+
+.TimePickerItem_timePickerItem__oGR0B:not(.TimePickerItem_timePickerItem--focused__uxELO) .TimePickerItem_cursorIndicator__TuRmj {
+    display: none
+}
+
+.TimePickerItem_timePickerItem--disabled__9jCA7 .TimePickerItem_label__GkjOk {
+    color: #8b8b8b
+}
+
+.TimePickerItem_timePickerItem--disabled__9jCA7 .TimePickerItem_timeInput__e_YgB {
+    background: #d4d4d4;
+    border-color: #8b8b8b
+}
+
+.TimeSwitcher_timeSwitcher__geQNo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 4px;
+    background: #fff;
+    border: 1px solid #354591;
+    border-radius: 8px
+}
+
+.TimeSwitcher_switcherItem__ieKe_ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    padding: 8px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    cursor: pointer;
+    transition: all .2s ease;
+    outline: none;
+    user-select: none
+}
+
+.TimeSwitcher_switcherItem__ieKe_:focus-visible {
+    outline: 2px solid #353535;
+    outline-offset: 2px
+}
+
+.TimeSwitcher_switcherItem__ieKe_:disabled {
+    cursor: not-allowed;
+    opacity: .5
+}
+
+.TimeSwitcher_switcherItem--medium___UNxX {
+    padding: 8px 16px;
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro
+}
+
+.TimeSwitcher_switcherItem--large__xCy4l {
+    padding: 8px 16px;
+    font: normal 500 18px/28px Neue Haas Grotesk Display Pro
+}
+
+.TimeSwitcher_switcherItem--default__VCmrs {
+    background: rgba(0, 0, 0, 0);
+    color: #000
+}
+
+.TimeSwitcher_switcherItem--hover__lwa3t {
+    background: #d4d4d4;
+    color: #000
+}
+
+.TimeSwitcher_switcherItem--active__c8kyz {
+    background: #2b2768;
+    color: #fff;
+    border-radius: 4px
+}
+
+.TimeSwitcher_switcherItem--pressed__llP5k {
+    background: #bebebe;
+    color: #000
+}
+
+.TimeSwitcher_switcherItem--disabled__PDO8p {
+    background: rgba(0, 0, 0, 0);
+    color: #8b8b8b;
+    cursor: not-allowed
+}
+
+.TimePickerModal_overlay__3jGah {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 16px
+}
+
+.TimePickerModal_timePickerModal__IKEzB {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, .24);
+    max-height: 90vh;
+    overflow: hidden
+}
+
+.TimePickerModal_timePickerModal--mobile__O7K5w {
+    width: 327px;
+    padding-bottom: 16px;
+    gap: 40px
+}
+
+.TimePickerModal_timePickerModal--tablet___kyqF {
+    width: auto;
+    padding-bottom: 20px;
+    gap: 40px
+}
+
+.TimePickerModal_timePickerModal--desktop__8sPDz {
+    width: auto;
+    padding-bottom: 24px;
+    gap: 40px
+}
+
+.TimePickerModal_content__Av1eV {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%
+}
+
+.TimePickerModal_header__VRuCS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px;
+    background: linear-gradient(90deg, #e92027 0, #2b2768)
+}
+
+.TimePickerModal_headerTitle__umLhE {
+    font: normal 700 18px/28px Neue Haas Grotesk Display Pro;
+    color: #fff;
+    text-align: left
+}
+
+.TimePickerModal_timePickerModal--tablet___kyqF .TimePickerModal_header__VRuCS {
+    padding: 20px
+}
+
+.TimePickerModal_timePickerModal--tablet___kyqF .TimePickerModal_headerTitle__umLhE {
+    font: normal 700 20px/32px Neue Haas Grotesk Display Pro
+}
+
+.TimePickerModal_timePickerModal--desktop__8sPDz .TimePickerModal_header__VRuCS {
+    padding: 24px
+}
+
+.TimePickerModal_timePickerModal--desktop__8sPDz .TimePickerModal_headerTitle__umLhE {
+    font: normal 700 24px/36px Neue Haas Grotesk Display Pro
+}
+
+.TimePickerModal_timeInputSection__hsCy7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0 16px
+}
+
+.TimePickerModal_timeInputs__Js0yg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    flex: 1
+}
+
+.TimePickerModal_separator__4PN_V {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 22px;
+    width: 8px;
+    height: 106px;
+    user-select: none
+}
+
+.TimePickerModal_separatorDot__VPx7B {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #656565
+}
+
+.TimePickerModal_switcherContainer__6LLZU {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 22px
+}
+
+.TimePickerModal_timePickerModal--tablet___kyqF .TimePickerModal_timeInputSection__hsCy7 {
+    padding: 0 20px
+}
+
+.TimePickerModal_timePickerModal--desktop__8sPDz .TimePickerModal_timeInputSection__hsCy7 {
+    padding: 0 24px
+}
+
+.TimePickerModal_bottomButtons__6S8wa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 0 16px
+}
+
+.TimePickerModal_timePickerModal--tablet___kyqF .TimePickerModal_bottomButtons__6S8wa {
+    padding: 0 20px
+}
+
+.TimePickerModal_timePickerModal--desktop__8sPDz .TimePickerModal_bottomButtons__6S8wa {
+    padding: 0 24px
+}
+
+.Tooltip_tooltipTrigger__pI_r7 {
+    display: inline-block;
+    position: relative;
+    line-height: 0
+}
+
+.Tooltip_tooltip__dTQQZ {
+    position: fixed;
+    background: #000;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .15);
+    pointer-events: none;
+    z-index: 9999;
+    overflow: visible;
+    animation: Tooltip_tooltipFadeIn__gU9fC .15s ease-in-out
+}
+
+.Tooltip_tooltip--light__0MsVf {
+    background: #f1f1f1;
+    color: #000;
+    box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, .24)
+}
+
+.Tooltip_tooltip__arrow__wj0NA {
+    position: absolute !important;
+    width: 0 !important;
+    height: 0 !important;
+    line-height: 0 !important;
+    font-size: 0 !important;
+    z-index: 9999 !important;
+    bottom: -8px !important;
+    border-left: 8px solid rgba(0, 0, 0, 0) !important;
+    border-right: 8px solid rgba(0, 0, 0, 0) !important;
+    border-top: 8px solid #fff !important;
+    border-bottom: 0 !important
+}
+
+.Tooltip_tooltip__content__3_RzV {
+    position: relative;
+    max-width: 360px;
+    white-space: pre-line;
+    line-height: 1.4;
+    text-align: center
+}
+
+.Tooltip_tooltip--small__pTHgM {
+    padding: 8px 12px;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.Tooltip_tooltip--medium__RTPGz {
+    padding: 12px 16px;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.Tooltip_tooltip--large__ZprkU {
+    padding: 16px 20px;
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+}
+
+.Tooltip_tooltip--bottom__hV_F5.Tooltip_tooltip--small__pTHgM .Tooltip_tooltip__arrow__wj0NA {
+    top: -4px;
+    left: 50%;
+    margin-left: -4px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #000;
+    border-style: solid;
+    border-width: 0 4px 4px
+}
+
+.Tooltip_tooltip--bottom__hV_F5.Tooltip_tooltip--medium__RTPGz .Tooltip_tooltip__arrow__wj0NA {
+    top: -6px;
+    left: 50%;
+    margin-left: -6px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #000;
+    border-style: solid;
+    border-width: 0 6px 6px
+}
+
+.Tooltip_tooltip--bottom__hV_F5.Tooltip_tooltip--large__ZprkU .Tooltip_tooltip__arrow__wj0NA {
+    top: -8px;
+    left: 50%;
+    margin-left: -8px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #000;
+    border-style: solid;
+    border-width: 0 8px 8px
+}
+
+.Tooltip_tooltip--bottom__hV_F5.Tooltip_tooltip--light__0MsVf.Tooltip_tooltip--large__ZprkU .Tooltip_tooltip__arrow__wj0NA,
+.Tooltip_tooltip--bottom__hV_F5.Tooltip_tooltip--light__0MsVf.Tooltip_tooltip--medium__RTPGz .Tooltip_tooltip__arrow__wj0NA,
+.Tooltip_tooltip--bottom__hV_F5.Tooltip_tooltip--light__0MsVf.Tooltip_tooltip--small__pTHgM .Tooltip_tooltip__arrow__wj0NA {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #f1f1f1
+}
+
+.Tooltip_tooltip--left__xfPXH .Tooltip_tooltip__arrow__wj0NA {
+    right: -4px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #000
+}
+
+.Tooltip_tooltip--left__xfPXH.Tooltip_tooltip--small__pTHgM .Tooltip_tooltip__arrow__wj0NA {
+    right: -4px
+}
+
+.Tooltip_tooltip--left__xfPXH.Tooltip_tooltip--medium__RTPGz .Tooltip_tooltip__arrow__wj0NA {
+    right: -6px
+}
+
+.Tooltip_tooltip--left__xfPXH.Tooltip_tooltip--large__ZprkU .Tooltip_tooltip__arrow__wj0NA {
+    right: -8px
+}
+
+.Tooltip_tooltip--right__PBpcf .Tooltip_tooltip__arrow__wj0NA {
+    left: -4px;
+    border-color: rgba(0, 0, 0, 0) #000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)
+}
+
+.Tooltip_tooltip--right__PBpcf.Tooltip_tooltip--small__pTHgM .Tooltip_tooltip__arrow__wj0NA {
+    left: -4px
+}
+
+.Tooltip_tooltip--right__PBpcf.Tooltip_tooltip--medium__RTPGz .Tooltip_tooltip__arrow__wj0NA {
+    left: -6px
+}
+
+.Tooltip_tooltip--right__PBpcf.Tooltip_tooltip--large__ZprkU .Tooltip_tooltip__arrow__wj0NA {
+    left: -8px
+}
+
+@keyframes Tooltip_tooltipFadeIn__gU9fC {
+    0% {
+        opacity: 0;
+        transform: scale(.95)
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+.Header_header__wxpL5 {
+    width: 100%;
+    min-height: fit-content;
+    background: linear-gradient(90deg, #e92027, #2b2768);
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column
+}
+
+.Header_pattern__Nx9rt {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden
+}
+
+.Header_patternImage___DoM0,
+.Header_pattern__Nx9rt {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.Header_patternImage___DoM0 img,
+.Header_patternImage___DoM0 svg {
+    display: block;
+    width: 1440px;
+    height: auto;
+    opacity: .8
+}
+
+.Header_topNavigation__fRLcO {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 80px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1
+}
+
+.Header_logoMenuContainer__FZkn_ {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    flex-grow: 1;
+    padding-right: 40px;
+    height: 100%
+}
+
+.Header_logo__TwduJ {
+    width: 151px;
+    height: 48px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0
+}
+
+.Header_surveyBanner__2UUIS {
+    display: flex;
+    align-items: center;
+    padding: 24px 80px 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .08);
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1
+}
+
+.Header_surveyBanner--noChipsStepper__xr6q6 {
+    padding-top: 8px
+}
+
+.Header_content__aeAB6 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+    align-items: flex-start
+}
+
+.Header_chipsStepperRow__QK35x {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 32px
+}
+
+.Header_chip__4ycxO {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 2px 14px;
+    border: 1px solid #f8ede4;
+    border-radius: 40px;
+    flex-shrink: 0
+}
+
+.Header_chipText___O6Yd {
+    font: normal 500 18px/28px Neue Haas Grotesk Display Pro;
+    color: #fff;
+    white-space: pre;
+    text-wrap: nowrap
+}
+
+.Header_stepperContainer__Rmioi {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 160px;
+    max-width: fit-content;
+    flex-shrink: 0
+}
+
+.Header_textContainer__ioEuz {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #fff;
+    flex-shrink: 0
+}
+
+.Header_title__BdUo0 {
+    font: normal 700 32px/44px Neue Haas Grotesk Display Pro;
+    width: 100%;
+    flex-shrink: 0;
+    margin: 0
+}
+
+.Header_subSectors__gzZfm {
+    font: normal 400 20px/32px Neue Haas Grotesk Display Pro;
+    width: 100%;
+    flex-shrink: 0;
+    opacity: .9;
+    margin: 4px 0 0
+}
+
+.Header_description__jYm_o {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+    width: 100%;
+    flex-shrink: 0;
+    margin: 0
+}
+
+.Header_header--tablet__rGLfJ {
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px
+}
+
+.Header_header--tablet__rGLfJ .Header_topNavigation__fRLcO {
+    padding: 20px 40px
+}
+
+.Header_header--tablet__rGLfJ .Header_logo__TwduJ {
+    width: 101px;
+    height: 32px
+}
+
+.Header_header--tablet__rGLfJ .Header_logoMenuContainer__FZkn_ {
+    gap: 0;
+    padding-right: 0
+}
+
+.Header_header--tablet__rGLfJ .Header_surveyBanner__2UUIS {
+    gap: 40px;
+    padding: 32px 40px 40px;
+    border-radius: 28px
+}
+
+.Header_header--tablet__rGLfJ .Header_surveyBanner--noChipsStepper__xr6q6 {
+    padding-top: 8px
+}
+
+.Header_header--tablet__rGLfJ .Header_content__aeAB6 {
+    gap: 16px
+}
+
+.Header_header--tablet__rGLfJ .Header_chip__4ycxO {
+    gap: 6px;
+    padding: 2px 10px
+}
+
+.Header_header--tablet__rGLfJ .Header_chipText___O6Yd {
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro
+}
+
+.Header_header--tablet__rGLfJ .Header_chipsStepperRow__QK35x {
+    align-items: flex-start
+}
+
+.Header_header--tablet__rGLfJ .Header_textContainer__ioEuz {
+    gap: 6px;
+    width: 100%
+}
+
+.Header_header--tablet__rGLfJ .Header_title__BdUo0 {
+    font: normal 700 24px/36px Neue Haas Grotesk Display Pro
+}
+
+.Header_header--tablet__rGLfJ .Header_description__jYm_o {
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+}
+
+.Header_header--mobile__mKKbR {
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px
+}
+
+.Header_header--mobile__mKKbR .Header_patternImage___DoM0 img {
+    width: 908px
+}
+
+.Header_header--mobile__mKKbR .Header_patternImage___DoM0 svg {
+    display: none;
+    width: 908px
+}
+
+.Header_header--mobile__mKKbR .Header_topNavigation__fRLcO {
+    padding: 32px 24px
+}
+
+.Header_header--mobile__mKKbR .Header_logo__TwduJ {
+    width: 88px;
+    height: 28px
+}
+
+.Header_header--mobile__mKKbR .Header_logoMenuContainer__FZkn_ {
+    gap: 0;
+    padding-right: 0
+}
+
+.Header_header--mobile__mKKbR .Header_surveyBanner__2UUIS {
+    padding: 8px 24px 28px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px
+}
+
+.Header_header--mobile__mKKbR .Header_surveyBanner--noChipsStepper__xr6q6 {
+    padding-top: 8px
+}
+
+.Header_header--mobile__mKKbR .Header_content__aeAB6 {
+    gap: 12px
+}
+
+.Header_header--mobile__mKKbR .Header_chip__4ycxO {
+    gap: 4px;
+    padding: 2px 8px
+}
+
+.Header_header--mobile__mKKbR .Header_chipText___O6Yd {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.Header_header--mobile__mKKbR .Header_chipsStepperRow__QK35x {
+    align-items: flex-start
+}
+
+.Header_header--mobile__mKKbR .Header_stepperContainer__Rmioi {
+    display: none
+}
+
+.Header_header--mobile__mKKbR .Header_textContainer__ioEuz {
+    gap: 4px;
+    width: 100%
+}
+
+.Header_header--mobile__mKKbR .Header_title__BdUo0 {
+    font: normal 700 20px/32px RST Thermal
+}
+
+.Header_header--mobile__mKKbR .Header_description__jYm_o {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.MobileMenu_overlay__A9K8c {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 1100;
+    animation: MobileMenu_fadeIn__C4tfX .3s ease
+}
+
+@keyframes MobileMenu_fadeIn__C4tfX {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.MobileMenu_drawer__XClW5 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 393px;
+    background-color: #fff;
+    z-index: 1101;
+    transform: translateX(100%);
+    transition: transform .3s ease;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column
+}
+
+@media(min-width: 768px) {
+    .MobileMenu_drawer__XClW5 {
+        max-width: 100%
+    }
+}
+
+.MobileMenu_drawerOpen__fRAtH {
+    transform: translateX(0)
+}
+
+.MobileMenu_topNav__m2FOm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 24px;
+    height: 92px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .15);
+    flex-shrink: 0
+}
+
+@media(min-width: 768px) {
+    .MobileMenu_topNav__m2FOm {
+        padding: 20px 40px;
+        height: 96px
+    }
+}
+
+.MobileMenu_logo__aN1zi {
+    width: 88px;
+    height: 28px;
+    flex-shrink: 0;
+    filter: invert(1) brightness(0)
+}
+
+@media(min-width: 768px) {
+    .MobileMenu_logo__aN1zi {
+        width: 101px;
+        height: 32px
+    }
+}
+
+.MobileMenu_closeButton__1TMJ1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .2s ease;
+    flex-shrink: 0
+}
+
+.MobileMenu_closeButton__1TMJ1:hover {
+    background-color: #f1f1f1
+}
+
+.MobileMenu_closeButton__1TMJ1:active {
+    background-color: #d4d4d4
+}
+
+.MobileMenu_closeIcon__7uI4p {
+    width: 18px;
+    height: 18px;
+    color: #000
+}
+
+.MobileMenu_menuContent__pxzwe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 40px 24px;
+    flex: 1
+}
+
+@media(min-width: 768px) {
+    .MobileMenu_menuContent__pxzwe {
+        gap: 24px;
+        padding: 48px 40px
+    }
+}
+
+.MobileMenu_pollingBtn__AIzMT {
+    font-size: 14px !important
+}
+
+.MobileMenu_nav__SVzoL {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    align-self: stretch
+}
+
+.MobileMenu_navItem__mAy7K {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 16px 0;
+    border: none;
+    border-bottom: 2px solid #656565;
+    background: none;
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    text-align: left;
+    cursor: pointer;
+    transition: color .2s ease;
+    width: 100%
+}
+
+.MobileMenu_navItem__mAy7K:hover {
+    color: #e92027
+}
+
+.MobileMenu_navItem__mAy7K:active {
+    color: #a0030f
+}
+
+.FloatingPollingButton_floatingButton__Kt3Pz {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all .3s ease-in-out;
+    pointer-events: none
+}
+
+@media(min-width: 768px) {
+    .FloatingPollingButton_floatingButton__Kt3Pz {
+        bottom: 32px;
+        right: 40px
+    }
+}
+
+@media(min-width: 1280px) {
+    .FloatingPollingButton_floatingButton__Kt3Pz {
+        bottom: 40px;
+        right: 80px
+    }
+}
+
+.FloatingPollingButton_floatingButton--visible__5NWNu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto
+}
+
+.TermsAcceptance_termsCard__S7Ryk {
+    width: 100%;
+    background: #fff;
+    border: 2px solid #be2326;
+    border-radius: 24px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_termsCard__S7Ryk {
+        border-radius: 24px;
+        padding: 32px;
+        gap: 16px
+    }
+}
+
+@media(min-width: 1025px) {
+    .TermsAcceptance_termsCard__S7Ryk {
+        border-radius: 40px;
+        padding: 48px 64px 64px;
+        gap: 32px
+    }
+}
+
+.TermsAcceptance_termsCard--poll__72FTU {
+    border-color: #2b2768
+}
+
+.TermsAcceptance_termsCard--poll__72FTU .TermsAcceptance_summaryCard____mU5,
+.TermsAcceptance_termsCard--poll__72FTU .TermsAcceptance_termsContent__rFhom {
+    border: none
+}
+
+.TermsAcceptance_mainTitle__2FWB7 {
+    margin: 0;
+    font: normal 700 20px/32px RST Thermal;
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_mainTitle__2FWB7 {
+        font: normal 700 24px/36px RST Thermal
+    }
+}
+
+@media(min-width: 1025px) {
+    .TermsAcceptance_mainTitle__2FWB7 {
+        font: normal 700 32px/44px RST Thermal
+    }
+}
+
+.TermsAcceptance_formalTitle__s3_hS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 16px;
+    text-align: flex-start
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_formalTitle__s3_hS {
+        gap: 6px;
+        margin-bottom: 20px
+    }
+}
+
+.TermsAcceptance_formalTitleDraft__TwDlB,
+.TermsAcceptance_formalTitleEnglish__5hpkh,
+.TermsAcceptance_formalTitleProject__M4JZd {
+    margin: 0;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+@media(min-width: 640px) {
+
+    .TermsAcceptance_formalTitleDraft__TwDlB,
+    .TermsAcceptance_formalTitleEnglish__5hpkh,
+    .TermsAcceptance_formalTitleProject__M4JZd {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+.TermsAcceptance_formalTitleMain__GnSUb {
+    margin: 0;
+    font: normal 700 16px/24px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_formalTitleMain__GnSUb {
+        font: normal 700 18px/28px Neue Haas Grotesk Display Pro
+    }
+}
+
+.TermsAcceptance_summarySection__2mZ_O {
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_summarySection__2mZ_O {
+        flex-direction: row;
+        gap: 16px
+    }
+}
+
+@media(min-width: 1025px) {
+    .TermsAcceptance_summarySection__2mZ_O {
+        gap: 24px
+    }
+}
+
+.TermsAcceptance_summaryCard____mU5 {
+    flex: 1;
+    background: #f9f9f9;
+    border: 1px solid #d4d4d4;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: center
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_summaryCard____mU5 {
+        border-radius: 24px
+    }
+}
+
+@media(min-width: 1025px) {
+    .TermsAcceptance_summaryCard____mU5 {
+        padding: 24px;
+        gap: 24px
+    }
+}
+
+.TermsAcceptance_iconCircle__8zhtl {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #be2326;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 6px
+}
+
+.TermsAcceptance_iconCircle__8zhtl span,
+.TermsAcceptance_iconCircle__8zhtl svg {
+    width: 20px;
+    height: 20px
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_iconCircle__8zhtl {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        padding: 8px
+    }
+
+    .TermsAcceptance_iconCircle__8zhtl span,
+    .TermsAcceptance_iconCircle__8zhtl svg {
+        width: 28px;
+        height: 28px
+    }
+}
+
+.TermsAcceptance_iconCircle__8zhtl svg path {
+    fill: url(#lockIconGradient)
+}
+
+.TermsAcceptance_cardContent__PkFBH {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px
+}
+
+.TermsAcceptance_cardTitle__EZjTX {
+    margin: 0;
+    font: normal 500 18px/28px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_cardTitle__EZjTX {
+        font: normal 500 20px/32px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1025px) {
+    .TermsAcceptance_cardTitle__EZjTX {
+        font: normal 500 24px/36px Neue Haas Grotesk Display Pro
+    }
+}
+
+.TermsAcceptance_cardDescription__Sit5n {
+    margin: 0;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_cardDescription__Sit5n {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1025px) {
+    .TermsAcceptance_cardDescription__Sit5n {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+}
+
+.TermsAcceptance_termsContent__rFhom {
+    background: #f9f9f9;
+    border: 1px solid #d4d4d4;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_termsContent__rFhom {
+        border-radius: 24px;
+        padding: 24px;
+        gap: 24px
+    }
+}
+
+@media(min-width: 1025px) {
+    .TermsAcceptance_termsContent__rFhom {
+        border-radius: 40px;
+        padding: 40px 40px 56px;
+        gap: 40px
+    }
+}
+
+.TermsAcceptance_bridgingText__GVTZL {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.TermsAcceptance_termsIntro__roUES {
+    margin: 0;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_termsIntro__roUES {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1025px) {
+    .TermsAcceptance_termsIntro__roUES {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+}
+
+.TermsAcceptance_termsList__ZSW1h {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-right: 8px
+}
+
+.TermsAcceptance_termsList__ZSW1h::-webkit-scrollbar {
+    width: 6px
+}
+
+.TermsAcceptance_termsList__ZSW1h::-webkit-scrollbar-track {
+    background: #d4d4d4;
+    border-radius: 3px
+}
+
+.TermsAcceptance_termsList__ZSW1h::-webkit-scrollbar-thumb {
+    background: #bebebe;
+    border-radius: 3px
+}
+
+.TermsAcceptance_termsList__ZSW1h::-webkit-scrollbar-thumb:hover {
+    background: #8b8b8b
+}
+
+.TermsAcceptance_termsPoint__Qjs8m {
+    display: flex;
+    flex-direction: column;
+    gap: 6px
+}
+
+.TermsAcceptance_pointTitle__JAQC9 {
+    margin: 0;
+    font: normal 500 18px/28px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_pointTitle__JAQC9 {
+        font: normal 500 20px/32px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1025px) {
+    .TermsAcceptance_pointTitle__JAQC9 {
+        font: normal 500 24px/36px Neue Haas Grotesk Display Pro
+    }
+}
+
+.TermsAcceptance_pointText__wQxU9 {
+    margin: 0;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_pointText__wQxU9 {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1025px) {
+    .TermsAcceptance_pointText__wQxU9 {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+}
+
+.TermsAcceptance_bulletList__yzga4 {
+    margin: 0;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 0
+}
+
+.TermsAcceptance_bulletList__yzga4 li {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .TermsAcceptance_bulletList__yzga4 li {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1025px) {
+    .TermsAcceptance_bulletList__yzga4 li {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+}
+
+.TermsAcceptance_agreementSection__v_2aN {
+    padding-top: 12px
+}
+
+.TermsAcceptance_errorText__LTJvD {
+    margin: 8px 0 0;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #be2326;
+    text-align: center
+}
+
+.LandingIconCard_card__QdtHB {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px
+}
+
+@media(min-width: 768px) {
+    .LandingIconCard_card__QdtHB {
+        flex-direction: column;
+        gap: 20px;
+        padding: 24px;
+        border-radius: 24px
+    }
+}
+
+@media(min-width: 1280px) {
+    .LandingIconCard_card__QdtHB {
+        flex-direction: column;
+        gap: 20px;
+        padding: 24px;
+        border-radius: 24px
+    }
+}
+
+.LandingIconCard_iconBox__dcu_O {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    background-color: #fff;
+    border: 1px solid #be2326;
+    border-radius: 12px;
+    flex-shrink: 0
+}
+
+@media(min-width: 768px) {
+    .LandingIconCard_iconBox__dcu_O {
+        padding: 10px;
+        border-radius: 16px
+    }
+}
+
+@media(min-width: 1280px) {
+    .LandingIconCard_iconBox__dcu_O {
+        padding: 10px;
+        border-radius: 16px
+    }
+}
+
+.LandingIconCard_iconSvg__ecV87 {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0
+}
+
+.LandingIconCard_iconSvg__ecV87 path {
+    fill: url(#landingCardIconGradient)
+}
+
+@media(min-width: 768px) {
+    .LandingIconCard_iconSvg__ecV87 {
+        width: 36px;
+        height: 36px
+    }
+}
+
+@media(min-width: 1280px) {
+    .LandingIconCard_iconSvg__ecV87 {
+        width: 40px;
+        height: 40px
+    }
+}
+
+.LandingIconCard_text__cZmis {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1 0 0;
+    min-width: 1px;
+    color: #fff
+}
+
+.LandingIconCard_title__TzD8B {
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro;
+    font-style: italic;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+@media(min-width: 768px) {
+    .LandingIconCard_title__TzD8B {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 500;
+        font-style: italic
+    }
+}
+
+@media(min-width: 1280px) {
+    .LandingIconCard_title__TzD8B {
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 500;
+        font-style: italic
+    }
+}
+
+.LandingIconCard_description__OmuhK {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    margin: 0;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .LandingIconCard_description__OmuhK {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1280px) {
+    .LandingIconCard_description__OmuhK {
+        font-size: 18px;
+        line-height: 28px
+    }
+}
+
+.CX100Section_cx100Section__zVgYi {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 64px 24px;
+    width: 100%;
+    background-color: #fff
+}
+
+@media(min-width: 768px) {
+    .CX100Section_cx100Section__zVgYi {
+        padding: 80px 40px;
+        gap: 40px
+    }
+}
+
+@media(min-width: 1280px) {
+    .CX100Section_cx100Section__zVgYi {
+        padding: 120px 80px;
+        gap: 40px
+    }
+}
+
+.CX100Section_cx100Header__NUe21 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    text-align: left;
+    color: #000
+}
+
+.CX100Section_cx100Title__neEEk {
+    font: normal 700 32px/44px RST Thermal;
+    color: #000;
+    margin: 0;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .CX100Section_cx100Title__neEEk {
+        font-size: 36px;
+        line-height: 48px;
+        font-weight: 700
+    }
+}
+
+@media(min-width: 1280px) {
+    .CX100Section_cx100Title__neEEk {
+        font-size: 44px;
+        line-height: 64px;
+        font-weight: 700
+    }
+}
+
+.CX100Section_cx100Description__uvVVx {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    width: 100%
+}
+
+.CX100Section_cx100Description__uvVVx p {
+    margin: 0
+}
+
+@media(min-width: 768px) {
+    .CX100Section_cx100Description__uvVVx {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+        gap: 12px
+    }
+}
+
+@media(min-width: 1280px) {
+    .CX100Section_cx100Description__uvVVx {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        gap: 12px
+    }
+}
+
+.CX100Section_cx100Team__ox29o {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+@media(min-width: 768px) {
+    .CX100Section_cx100Team__ox29o {
+        gap: 12px
+    }
+}
+
+@media(min-width: 1280px) {
+    .CX100Section_cx100Team__ox29o {
+        gap: 16px
+    }
+}
+
+.CX100Section_cx100Subtitle__Dkb3n {
+    font: normal 700 16px/24px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0
+}
+
+@media(min-width: 768px) {
+    .CX100Section_cx100Subtitle__Dkb3n {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 700
+    }
+}
+
+@media(min-width: 1280px) {
+    .CX100Section_cx100Subtitle__Dkb3n {
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 500
+    }
+}
+
+.CX100Section_cx100ChipsContainer__XQLr2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    column-gap: 8px;
+    row-gap: 12px
+}
+
+@media(min-width: 768px) {
+    .CX100Section_cx100ChipsContainer__XQLr2 {
+        grid-template-columns: repeat(5, max-content);
+        column-gap: 12px;
+        row-gap: 12px
+    }
+}
+
+@media(min-width: 1280px) {
+    .CX100Section_cx100ChipsContainer__XQLr2 {
+        column-gap: 16px;
+        row-gap: 16px
+    }
+}
+
+.CX100Section_cx100Chip__FSZi3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    width: auto
+}
+
+@media(min-width: 768px) {
+    .CX100Section_cx100Chip__FSZi3 {
+        gap: 10px
+    }
+}
+
+@media(min-width: 1280px) {
+    .CX100Section_cx100Chip__FSZi3 {
+        width: 200px
+    }
+}
+
+.CX100Section_cx100ChipIconBox__lPN2d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: linear-gradient(135deg, #e92027, #2b2768);
+    border-radius: 50%;
+    flex-shrink: 0
+}
+
+@media(min-width: 768px) {
+    .CX100Section_cx100ChipIconBox__lPN2d {
+        width: 40px;
+        height: 40px
+    }
+}
+
+@media(min-width: 1280px) {
+    .CX100Section_cx100ChipIconBox__lPN2d {
+        width: 44px;
+        height: 44px
+    }
+}
+
+.CX100Section_cx100ChipIconSvg__tFdU0 {
+    width: 20px;
+    height: 20px;
+    color: #fff
+}
+
+@media(min-width: 768px) {
+    .CX100Section_cx100ChipIconSvg__tFdU0 {
+        width: 22px;
+        height: 22px
+    }
+}
+
+@media(min-width: 1280px) {
+    .CX100Section_cx100ChipIconSvg__tFdU0 {
+        width: 24px;
+        height: 24px
+    }
+}
+
+.CX100Section_cx100ChipLabel__dhdRa {
+    font: normal 700 16px/24px Neue Haas Grotesk Display Pro;
+    color: #000;
+    white-space: nowrap
+}
+
+@media(min-width: 768px) {
+    .CX100Section_cx100ChipLabel__dhdRa {
+        font: normal 500 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1280px) {
+    .CX100Section_cx100ChipLabel__dhdRa {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 500
+    }
+}
+
+.CX100Section_cx100ChipLabel--italic__GnPs0 {
+    font-style: italic
+}
+
+.CX100Section_cx100Data__XlV7l {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.CX100Section_cx100Cards__ET2TU {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px
+}
+
+@media(min-width: 768px) {
+    .CX100Section_cx100Cards__ET2TU {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 24px
+    }
+}
+
+@media(min-width: 1280px) {
+    .CX100Section_cx100Cards__ET2TU {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 28px
+    }
+}
+
+.SektorPublikSection_sektorPublikSection__s1w8Y {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 64px 24px;
+    width: 100%;
+    background: linear-gradient(180deg, #e92027, #74244f 38.46%, #2b2768 98.08%)
+}
+
+@media(min-width: 768px) {
+    .SektorPublikSection_sektorPublikSection__s1w8Y {
+        padding: 80px 40px;
+        gap: 32px
+    }
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sektorPublikSection__s1w8Y {
+        padding: 120px 80px
+    }
+}
+
+.SektorPublikSection_sektorPublikHeader__4u7yd {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    text-align: left;
+    color: #fff
+}
+
+@media(min-width: 768px) {
+    .SektorPublikSection_sektorPublikHeader__4u7yd {
+        gap: 16px
+    }
+}
+
+.SektorPublikSection_sektorPublikRightSection__Y4iDD {
+    display: none
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sektorPublikRightSection__Y4iDD {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        flex: 1 1 0;
+        min-width: 0
+    }
+
+    .SektorPublikSection_sektorPublikRightSection__Y4iDD .SektorPublikSection_sektorPublikMenu__gWOV1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+        max-width: none
+    }
+
+    .SektorPublikSection_sektorPublikRightSection__Y4iDD .SektorPublikSection_sektorPublikTab__X_YlC {
+        flex: 0 0 calc((100% - 20px)/2);
+        padding: 12px 16px;
+        background-color: #fff;
+        color: #000;
+        font-family: Neue Haas Grotesk Display Pro;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px
+    }
+}
+
+.SektorPublikSection_sektorPublikTitle__f1gzZ {
+    font: normal 700 32px/44px RST Thermal;
+    color: #fff;
+    margin: 0;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .SektorPublikSection_sektorPublikTitle__f1gzZ {
+        font-size: 36px;
+        line-height: 48px;
+        font-weight: 700
+    }
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sektorPublikTitle__f1gzZ {
+        font-size: 44px;
+        line-height: 64px;
+        font-weight: 700
+    }
+}
+
+.SektorPublikSection_sektorPublikDescription__EvjNQ {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #fff;
+    margin: 0;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .SektorPublikSection_sektorPublikDescription__EvjNQ {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sektorPublikDescription__EvjNQ {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400
+    }
+}
+
+.SektorPublikSection_sektorPublikMobileGrid__rD8rb {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 100%
+}
+
+.SektorPublikSection_sektorPublikMobileCard__hZJyV {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 16px;
+    background: #fff;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    aspect-ratio: 1;
+    overflow: hidden;
+    transition: opacity .2s ease
+}
+
+.SektorPublikSection_sektorPublikMobileCard__hZJyV:hover {
+    opacity: .9
+}
+
+.SektorPublikSection_sektorPublikMobileCard__hZJyV:active {
+    opacity: .8
+}
+
+.SektorPublikSection_sektorPublikMobileCardIllustration__VDmbb {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0
+}
+
+.SektorPublikSection_sektorPublikMobileCardLabel__t5e48 {
+    font: normal 700 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    text-align: left;
+    width: 100%;
+    word-break: break-word
+}
+
+.SektorPublikSection_sektorPublikMenu__gWOV1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 255px
+}
+
+@media(min-width: 768px) {
+    .SektorPublikSection_sektorPublikMenu__gWOV1 {
+        flex: 0 0 32%;
+        max-width: none;
+        width: auto
+    }
+}
+
+.SektorPublikSection_sektorPublikTab__X_YlC {
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    width: 100%;
+    background-color: #f9f9f9;
+    color: #000;
+    font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color .2s ease, color .2s ease
+}
+
+.SektorPublikSection_sektorPublikTab__X_YlC:hover:not(.SektorPublikSection_sektorPublikTabActive__aAKzt) {
+    background-color: #354591;
+    color: #fff
+}
+
+.SektorPublikSection_sektorPublikTab__X_YlC:active:not(.SektorPublikSection_sektorPublikTabActive__aAKzt) {
+    background-color: #2f3176;
+    color: #fff
+}
+
+.SektorPublikSection_sektorPublikError__GCHhy,
+.SektorPublikSection_sektorPublikLoading__4a3m2 {
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro
+}
+
+.SektorPublikSection_modalOverlay__2P2E6 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    padding: 24px;
+    animation: SektorPublikSection_fadeIn__Gznvb .2s ease
+}
+
+@keyframes SektorPublikSection_fadeIn__Gznvb {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.SektorPublikSection_modal__Nksrh {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    max-width: 353px;
+    max-height: 90vh;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, .24);
+    overflow-y: auto;
+    animation: SektorPublikSection_slideUp__P_IPO .3s ease
+}
+
+@media(min-width: 1025px) {
+    .SektorPublikSection_modal__Nksrh {
+        gap: 40px;
+        max-width: 500px;
+        padding: 24px;
+        border-radius: 16px
+    }
+}
+
+@keyframes SektorPublikSection_slideUp__P_IPO {
+    0% {
+        opacity: 0;
+        transform: translateY(20px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.SektorPublikSection_modalContent__bhb6O {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%
+}
+
+@media(min-width: 1025px) {
+    .SektorPublikSection_modalContent__bhb6O {
+        gap: 24px
+    }
+}
+
+.SektorPublikSection_modalHeader__wJID7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%
+}
+
+.SektorPublikSection_modalTitle__VkxZu {
+    font: normal 700 18px/28px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0
+}
+
+@media(min-width: 1025px) {
+    .SektorPublikSection_modalTitle__VkxZu {
+        font: normal 700 24px/36px Neue Haas Grotesk Display Pro
+    }
+}
+
+.SektorPublikSection_modalCloseButton__s3EgB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .2s ease;
+    flex-shrink: 0
+}
+
+.SektorPublikSection_modalCloseButton__s3EgB:hover {
+    background-color: #f1f1f1
+}
+
+.SektorPublikSection_modalCloseIconWrapper__0Guhz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px
+}
+
+@media(min-width: 1025px) {
+    .SektorPublikSection_modalCloseIconWrapper__0Guhz {
+        width: 28px;
+        height: 28px
+    }
+}
+
+.SektorPublikSection_modalCloseIcon__hRIFh {
+    width: 14px;
+    height: 14px;
+    color: #000
+}
+
+@media(min-width: 1025px) {
+    .SektorPublikSection_modalCloseIcon__hRIFh {
+        width: 16px;
+        height: 16px
+    }
+}
+
+.SektorPublikSection_modalIcon__Vwb_N {
+    width: 120px;
+    height: 120px
+}
+
+@media(min-width: 1025px) {
+    .SektorPublikSection_modalIcon__Vwb_N {
+        width: 180px;
+        height: 180px
+    }
+}
+
+.SektorPublikSection_modalDescription__EWCz9 {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0
+}
+
+@media(min-width: 1025px) {
+    .SektorPublikSection_modalDescription__EWCz9 {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+}
+
+.SektorPublikSection_subSectorsList___xW7g {
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+@media(min-width: 1025px) {
+    .SektorPublikSection_subSectorsList___xW7g {
+        gap: 4px
+    }
+}
+
+.SektorPublikSection_subSectorItem__NuFDK {
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+@media(min-width: 1025px) {
+    .SektorPublikSection_subSectorItem__NuFDK {
+        padding: 8px 0
+    }
+}
+
+.SektorPublikSection_subSectorIcon__oijFx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #e92027, #2b2768);
+    border-radius: 40px;
+    flex-shrink: 0
+}
+
+@media(min-width: 1025px) {
+    .SektorPublikSection_subSectorIcon__oijFx {
+        width: 48px;
+        height: 48px
+    }
+}
+
+.SektorPublikSection_subSectorIconImage__koC7T {
+    width: 24px;
+    height: 24px;
+    color: #fff
+}
+
+.SektorPublikSection_subSectorIconImage__koC7T path {
+    fill: #fff
+}
+
+@media(min-width: 1025px) {
+    .SektorPublikSection_subSectorIconImage__koC7T {
+        width: 32px;
+        height: 32px
+    }
+}
+
+.SektorPublikSection_subSectorName__O1r4d {
+    font: normal 500 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0
+}
+
+@media(min-width: 1025px) {
+    .SektorPublikSection_subSectorName__O1r4d {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+}
+
+.SektorPublikSection_sektorPublikContent__ENMnv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .SektorPublikSection_sektorPublikContent__ENMnv {
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: space-between
+    }
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sektorPublikContent__ENMnv {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between
+    }
+}
+
+.SektorPublikSection_sektorPublikTabActive__aAKzt {
+    background: #1c1a46 !important;
+    color: #fff !important;
+    font-weight: 700 !important
+}
+
+.SektorPublikSection_sectorCard__O0fIk {
+    background-color: #fff;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05)
+}
+
+@media(min-width: 768px) {
+    .SektorPublikSection_sectorCard__O0fIk {
+        flex: 0 0 62%
+    }
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sectorCard__O0fIk {
+        flex: 0 0 524px
+    }
+}
+
+.SektorPublikSection_sectorCardContent__Rz2kx {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sectorCardContent__Rz2kx {
+        gap: 24px;
+        padding: 24px
+    }
+}
+
+.SektorPublikSection_sectorCardTitle__qWg7X {
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000;
+    margin: 0
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sectorCardTitle__qWg7X {
+        font-size: 18px;
+        line-height: 28px
+    }
+}
+
+.SektorPublikSection_sectorCardIcon__WzbPD {
+    width: 140px;
+    height: 140px;
+    margin: 0;
+    display: block
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sectorCardIcon__WzbPD {
+        width: 180px;
+        height: 180px
+    }
+}
+
+.SektorPublikSection_sectorCardDescription__jeywN {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4e4e4e;
+    margin: 0;
+    text-align: left
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sectorCardDescription__jeywN {
+        font-size: 18px;
+        line-height: 28px
+    }
+}
+
+.SektorPublikSection_sectorCardSubSectors__nDQ_M {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sectorCardSubSectors__nDQ_M {
+        gap: 4px
+    }
+}
+
+.SektorPublikSection_sectorCardSubSectorItem__8cCGn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: opacity .2s ease
+}
+
+.SektorPublikSection_sectorCardSubSectorItem__8cCGn:hover {
+    opacity: .8
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sectorCardSubSectorItem__8cCGn {
+        padding: 8px 0
+    }
+}
+
+.SektorPublikSection_sectorCardSubSectorIcon__EKKuE {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #e92027, #2b2768);
+    border-radius: 24px;
+    flex-shrink: 0
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sectorCardSubSectorIcon__EKKuE {
+        width: 48px;
+        height: 48px;
+        border-radius: 40px
+    }
+}
+
+.SektorPublikSection_sectorCardSubSectorIconImage__LhIIu {
+    width: 28px;
+    height: 28px;
+    color: #fff
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sectorCardSubSectorIconImage__LhIIu {
+        width: 32px;
+        height: 32px
+    }
+}
+
+.SektorPublikSection_sectorCardSubSectorName__B3VH7 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    text-align: left;
+    margin: 0;
+    flex: 1
+}
+
+@media(min-width: 1280px) {
+    .SektorPublikSection_sectorCardSubSectorName__B3VH7 {
+        font-size: 18px;
+        line-height: 28px
+    }
+}
+
+.PenghargaanSection_penghargaanSection__L5s5A {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 64px 24px 0;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .PenghargaanSection_penghargaanSection__L5s5A {
+        padding: 80px 40px 0;
+        gap: 40px
+    }
+}
+
+@media(min-width: 1280px) {
+    .PenghargaanSection_penghargaanSection__L5s5A {
+        padding: 120px 80px 0;
+        gap: 40px
+    }
+}
+
+.PenghargaanSection_penghargaanHeader__40m6S {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    text-align: left;
+    color: #000
+}
+
+@media(min-width: 1280px) {
+    .PenghargaanSection_penghargaanHeader__40m6S {
+        gap: 16px
+    }
+}
+
+.PenghargaanSection_penghargaanTitle__CMs6L {
+    font: normal 700 32px/44px RST Thermal;
+    color: #000;
+    margin: 0;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .PenghargaanSection_penghargaanTitle__CMs6L {
+        font-size: 36px;
+        line-height: 48px;
+        font-weight: 700
+    }
+}
+
+@media(min-width: 1280px) {
+    .PenghargaanSection_penghargaanTitle__CMs6L {
+        font-size: 44px;
+        line-height: 64px;
+        font-weight: 700
+    }
+}
+
+.PenghargaanSection_penghargaanTitleMobile__kNd6B {
+    display: block
+}
+
+@media(min-width: 768px) {
+    .PenghargaanSection_penghargaanTitleMobile__kNd6B {
+        display: none
+    }
+}
+
+.PenghargaanSection_penghargaanTitleTablet__HHQ0j {
+    display: none
+}
+
+@media(min-width: 768px) {
+    .PenghargaanSection_penghargaanTitleTablet__HHQ0j {
+        display: block
+    }
+}
+
+.PenghargaanSection_penghargaanDescription__3SydB {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .PenghargaanSection_penghargaanDescription__3SydB {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1280px) {
+    .PenghargaanSection_penghargaanDescription__3SydB {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400
+    }
+}
+
+.PenghargaanSection_penghargaanCards__1mzYe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .PenghargaanSection_penghargaanCards__1mzYe {
+        flex-direction: row;
+        align-items: stretch;
+        gap: 20px
+    }
+}
+
+@media(min-width: 1280px) {
+    .PenghargaanSection_penghargaanCards__1mzYe {
+        gap: 28px
+    }
+}
+
+.PenghargaanSection_penghargaanCard__GSHAn {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+    width: 100%;
+    min-height: 112px;
+    background-color: #f9f9f9;
+    border: 2px solid #2b2768;
+    border-radius: 24px;
+    transition: transform .2s ease, box-shadow .2s ease
+}
+
+.PenghargaanSection_penghargaanCard__GSHAn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1)
+}
+
+@media(min-width: 768px) {
+    .PenghargaanSection_penghargaanCard__GSHAn {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 20px;
+        flex: 1;
+        min-height: 0;
+        height: auto;
+        border-radius: 24px
+    }
+}
+
+@media(min-width: 1280px) {
+    .PenghargaanSection_penghargaanCard__GSHAn {
+        padding: 24px;
+        gap: 20px
+    }
+}
+
+.PenghargaanSection_penghargaanCardText__kmiIC {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1 0 0;
+    min-width: 0;
+    min-height: 0
+}
+
+@media(min-width: 768px) {
+    .PenghargaanSection_penghargaanCardText__kmiIC {
+        flex: 0 1 auto;
+        width: 100%
+    }
+}
+
+@media(min-width: 1280px) {
+    .PenghargaanSection_penghargaanCardText__kmiIC {
+        gap: 4px
+    }
+}
+
+.PenghargaanSection_penghargaanCardTitle__ufAHy {
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro;
+    color: #000;
+    max-width: 250px;
+    margin: 0;
+    overflow: hidden;
+    flex-shrink: 0
+}
+
+@media(min-width: 768px) {
+    .PenghargaanSection_penghargaanCardTitle__ufAHy {
+        white-space: normal;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 500
+    }
+}
+
+@media(min-width: 1280px) {
+    .PenghargaanSection_penghargaanCardTitle__ufAHy {
+        max-width: 100%;
+        font-size: 20px;
+        line-height: 32px
+    }
+}
+
+.PenghargaanSection_penghargaanCardDescription__yuGNl {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0
+}
+
+@media(min-width: 768px) {
+    .PenghargaanSection_penghargaanCardDescription__yuGNl {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1280px) {
+    .PenghargaanSection_penghargaanCardDescription__yuGNl {
+        font-size: 18px;
+        line-height: 28px
+    }
+}
+
+.PenghargaanSection_penghargaanCardIcon__19P8V {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: block
+}
+
+.PenghargaanSection_penghargaanCardIcon__19P8V svg {
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+@media(min-width: 768px) {
+    .PenghargaanSection_penghargaanCardIcon__19P8V {
+        width: 104px;
+        height: 104px
+    }
+}
+
+@media(min-width: 1280px) {
+    .PenghargaanSection_penghargaanCardIcon__19P8V {
+        width: 128px;
+        height: 128px
+    }
+}
+
+.PartisipasiSection_partisipasiSection__VepPT {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 64px 24px 0;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .PartisipasiSection_partisipasiSection__VepPT {
+        padding: 80px 40px 0;
+        gap: 32px
+    }
+}
+
+@media(min-width: 1280px) {
+    .PartisipasiSection_partisipasiSection__VepPT {
+        padding: 120px 80px 0;
+        gap: 40px
+    }
+}
+
+.PartisipasiSection_partisipasiHeader__cs1Md {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    text-align: left;
+    color: #000
+}
+
+@media(min-width: 768px) {
+    .PartisipasiSection_partisipasiHeader__cs1Md {
+        gap: 16px
+    }
+}
+
+@media(min-width: 1280px) {
+    .PartisipasiSection_partisipasiHeader__cs1Md {
+        gap: 16px
+    }
+}
+
+.PartisipasiSection_partisipasiTitle__nSfii {
+    font: normal 700 32px/44px RST Thermal;
+    color: #000;
+    margin: 0;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .PartisipasiSection_partisipasiTitle__nSfii {
+        font-size: 36px;
+        line-height: 48px;
+        font-weight: 700
+    }
+}
+
+@media(min-width: 1280px) {
+    .PartisipasiSection_partisipasiTitle__nSfii {
+        font-size: 44px;
+        line-height: 64px;
+        font-weight: 700
+    }
+}
+
+.PartisipasiSection_partisipasiDescription__QeN1h {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .PartisipasiSection_partisipasiDescription__QeN1h {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1280px) {
+    .PartisipasiSection_partisipasiDescription__QeN1h {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400
+    }
+}
+
+.PartisipasiSection_partisipasiCards__8JwtE {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+@media(min-width: 768px) {
+    .PartisipasiSection_partisipasiCards__8JwtE {
+        flex-direction: row;
+        gap: 24px
+    }
+
+    .PartisipasiSection_partisipasiCards__8JwtE>* {
+        flex: 1 1 0
+    }
+}
+
+@media(min-width: 1280px) {
+    .PartisipasiSection_partisipasiCards__8JwtE {
+        gap: 28px
+    }
+}
+
+.RespondentEmail_formCard__1l487 {
+    width: 100%;
+    background: #fff;
+    border: 2px solid #2b2768;
+    border-radius: 24px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+@media(min-width: 640px) {
+    .RespondentEmail_formCard__1l487 {
+        border-radius: 32px;
+        padding: 32px 40px 40px;
+        gap: 24px
+    }
+}
+
+@media(min-width: 1025px) {
+    .RespondentEmail_formCard__1l487 {
+        border-radius: 40px;
+        padding: 48px 64px 64px;
+        gap: 24px
+    }
+}
+
+.RespondentEmail_formHeader__0zjZu {
+    display: flex;
+    flex-direction: column
+}
+
+@media(min-width: 640px) {
+    .RespondentEmail_formHeader__0zjZu {
+        gap: 12px
+    }
+}
+
+.RespondentEmail_formTitle__UV_8j {
+    margin: 0;
+    font: normal 700 20px/32px RST Thermal;
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .RespondentEmail_formTitle__UV_8j {
+        font: normal 700 28px/40px RST Thermal
+    }
+}
+
+@media(min-width: 1025px) {
+    .RespondentEmail_formTitle__UV_8j {
+        font: normal 700 32px/44px RST Thermal
+    }
+}
+
+.RespondentEmail_formDescription__wGqgk {
+    margin: 0;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .RespondentEmail_formDescription__wGqgk {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1025px) {
+    .RespondentEmail_formDescription__wGqgk {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+}
+
+.RespondentEmail_dataContainer__fsaW6 {
+    background: #f9f9f9;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+@media(min-width: 640px) {
+    .RespondentEmail_dataContainer__fsaW6 {
+        border-radius: 32px;
+        padding: 40px;
+        gap: 20px
+    }
+}
+
+@media(min-width: 1025px) {
+    .RespondentEmail_dataContainer__fsaW6 {
+        border-radius: 40px;
+        padding: 40px 40px 56px;
+        gap: 20px
+    }
+}
+
+.RespondentEmail_suggestion__7hGHK {
+    margin: -8px 0 0;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #4e4e4e
+}
+
+@media(min-width: 640px) {
+    .RespondentEmail_suggestion__7hGHK {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+.RespondentEmail_suggestionButton__gx0sw {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: #4f67b0;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.RespondentEmail_suggestionButton__gx0sw:hover {
+    color: #2b2768
+}
+
+.RespondentEmail_turnstileSlot__bB5XN {
+    width: 100%;
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px
+}
+
+@media(min-width: 640px) {
+    .RespondentEmail_turnstileSlot__bB5XN {
+        margin-top: 24px
+    }
+}
+
+.RespondentEmail_googleSignInSlot__92WX5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem
+}
+
+.RespondentEmail_consentLink__KXDgl {
+    color: #1d1f7d;
+    text-decoration: underline;
+    font-weight: 500
+}
+
+.RespondentEmail_consentLink__KXDgl:hover {
+    opacity: .85
+}
+
+.OtpVerification_card__1Y7WK {
+    width: 100%;
+    background: #fff;
+    border: 2px solid #2b2768;
+    border-radius: 24px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+@media(min-width: 640px) {
+    .OtpVerification_card__1Y7WK {
+        border-radius: 32px;
+        padding: 32px 40px 40px;
+        gap: 24px
+    }
+}
+
+@media(min-width: 1025px) {
+    .OtpVerification_card__1Y7WK {
+        border-radius: 40px;
+        padding: 48px 64px 64px;
+        gap: 24px
+    }
+}
+
+.OtpVerification_cardHeader__xxTOE {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+@media(min-width: 640px) {
+    .OtpVerification_cardHeader__xxTOE {
+        gap: 12px
+    }
+}
+
+.OtpVerification_cardTitle__PRQII {
+    margin: 0;
+    font: normal 700 20px/32px RST Thermal;
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .OtpVerification_cardTitle__PRQII {
+        font: normal 700 28px/40px RST Thermal
+    }
+}
+
+@media(min-width: 1025px) {
+    .OtpVerification_cardTitle__PRQII {
+        font: normal 700 32px/44px RST Thermal
+    }
+}
+
+.OtpVerification_cardDescription__8mICt {
+    margin: 0;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .OtpVerification_cardDescription__8mICt {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1025px) {
+    .OtpVerification_cardDescription__8mICt {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+}
+
+.OtpVerification_otpContainer__YOFSV {
+    background: #f9f9f9;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px
+}
+
+@media(min-width: 640px) {
+    .OtpVerification_otpContainer__YOFSV {
+        border-radius: 32px;
+        padding: 40px;
+        gap: 20px
+    }
+}
+
+.OtpVerification_otpBoxes__k9Z_F {
+    display: flex;
+    gap: 12px
+}
+
+@media(min-width: 640px) {
+    .OtpVerification_otpBoxes__k9Z_F {
+        gap: 16px
+    }
+}
+
+.OtpVerification_otpBox__zjFlb {
+    width: 48px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1.5px solid #bebebe;
+    background: #fff;
+    text-align: center;
+    font: normal 700 28px/40px Neue Haas Grotesk Display Pro;
+    color: #000;
+    outline: none;
+    transition: border-color .15s
+}
+
+.OtpVerification_otpBox__zjFlb:focus {
+    border-color: #be2326;
+    border-width: 2px
+}
+
+.OtpVerification_otpBox--error__3rtC1 {
+    border-color: #be2326
+}
+
+.OtpVerification_otpBox__zjFlb:disabled {
+    cursor: not-allowed;
+    opacity: .6
+}
+
+.OtpVerification_errorText__o971z {
+    color: #be2326
+}
+
+.OtpVerification_errorText__o971z,
+.OtpVerification_resendRow__9cZiS {
+    margin: 0;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    text-align: center
+}
+
+.OtpVerification_resendRow__9cZiS {
+    color: #000
+}
+
+@media(min-width: 640px) {
+    .OtpVerification_resendRow__9cZiS {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+.OtpVerification_resendButton__AUuOk {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: normal 700 14px/20px Neue Haas Grotesk Display Pro;
+    color: #be2326;
+    padding: 0;
+    text-decoration: underline
+}
+
+@media(min-width: 640px) {
+    .OtpVerification_resendButton__AUuOk {
+        font: normal 700 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+.OtpVerification_resendButton__AUuOk:disabled {
+    cursor: not-allowed;
+    opacity: .5;
+    text-decoration: none
+}
+
+.OtpVerification_resendSuccess__8gvwc {
+    margin: 0;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    text-align: center
+}
+
+@media(min-width: 640px) {
+    .OtpVerification_resendSuccess__8gvwc {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+.CardScore_cardScore__oFXmY {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+    height: 96px;
+    padding: 16px;
+    border-radius: 20px;
+    transition: all .15s ease-in-out
+}
+
+.CardScore_cardScore--compact__Kl4AE {
+    height: auto;
+    min-height: 0;
+    padding: 12px
+}
+
+.CardScore_cardScore__oFXmY[role=button] {
+    cursor: pointer
+}
+
+.CardScore_cardScore__oFXmY[role=button]:hover {
+    transform: translateY(-2px);
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .08)
+}
+
+.CardScore_cardScore--neutral__E8qpy {
+    background: #f9f9f9
+}
+
+.CardScore_cardScore--neutral__E8qpy .CardScore_cardScore__count__qOd0_,
+.CardScore_cardScore--neutral__E8qpy .CardScore_cardScore__label__SIE0_ {
+    color: #000
+}
+
+.CardScore_cardScore--success__9ce3z {
+    background: #cfeddb
+}
+
+.CardScore_cardScore--success__9ce3z .CardScore_cardScore__count__qOd0_,
+.CardScore_cardScore--success__9ce3z .CardScore_cardScore__label__SIE0_ {
+    color: #053819
+}
+
+.CardScore_cardScore--information__Dx8AD {
+    background: #cadcff
+}
+
+.CardScore_cardScore--information__Dx8AD .CardScore_cardScore__count__qOd0_,
+.CardScore_cardScore--information__Dx8AD .CardScore_cardScore__label__SIE0_ {
+    color: #2b2768
+}
+
+.CardScore_cardScore--alert__6z71m {
+    background: #fefbd3
+}
+
+.CardScore_cardScore--alert__6z71m .CardScore_cardScore__count__qOd0_,
+.CardScore_cardScore--alert__6z71m .CardScore_cardScore__label__SIE0_ {
+    color: #7d7611
+}
+
+.CardScore_cardScore--danger__dqla4 {
+    background: #ffd2d2
+}
+
+.CardScore_cardScore--danger__dqla4 .CardScore_cardScore__count__qOd0_,
+.CardScore_cardScore--danger__dqla4 .CardScore_cardScore__label__SIE0_ {
+    color: #a0030f
+}
+
+.CardScore_cardScore__text__Bvbnm {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+    min-width: 0
+}
+
+.CardScore_cardScore__label__SIE0_ {
+    font: normal 500 20px/32px Neue Haas Grotesk Display Pro
+}
+
+.CardScore_cardScore__description__UhMYC {
+    font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+    color: #000
+}
+
+.CardScore_cardScore__count__qOd0_ {
+    font: normal 500 20px/32px Neue Haas Grotesk Display Pro;
+    flex-shrink: 0
+}

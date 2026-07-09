@@ -1,0 +1,1401 @@
+.PollLanding_container__YGJ_B {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 16px
+}
+
+.PollLanding_header__3kNo4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    padding: 0 16px;
+    margin-bottom: 24px
+}
+
+.PollLanding_title__TuDv9 {
+    font: normal 700 20px/32px RST Thermal;
+    color: #fff;
+    margin: 0
+}
+
+.PollLanding_description__iTPD_ {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #fff;
+    margin: 0
+}
+
+.PollLanding_grid__yKF2_ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px
+}
+
+.PollLanding_card__8QdxB {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 20px;
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    min-height: 168px
+}
+
+.PollLanding_card__8QdxB:hover {
+    background: #cadcff
+}
+
+.PollLanding_card__8QdxB:active {
+    background: #b6cbf8
+}
+
+.PollLanding_card--completed__1XceQ {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid #b6cbf8;
+    border-radius: 20px;
+    background: linear-gradient(108.83deg, #ffffff 45.045%, #cadcff 143.28%);
+    overflow: hidden;
+    width: 100%;
+    min-height: 168px;
+    flex-shrink: 0
+}
+
+.PollLanding_card--completed-inner__YHCJU {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 8px;
+    row-gap: 8px;
+    padding: 16px 20px;
+    border: 2px solid #354591;
+    border-radius: 16px;
+    position: relative;
+    width: 100%;
+    flex: 1;
+    align-items: start
+}
+
+.PollLanding_card--completed-inner__YHCJU .PollLanding_check-square__nk1rA {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start
+}
+
+.PollLanding_card--completed-inner__YHCJU .PollLanding_card-text__KFJ6z {
+    grid-column: 1;
+    grid-row: 2
+}
+
+.PollLanding_card--completed-inner__YHCJU .PollLanding_card-illustration__u1yay {
+    grid-column: 2;
+    grid-row: 1/span 2;
+    align-self: center;
+    order: 0
+}
+
+.PollLanding_check-square__nk1rA {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    background: #354591;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0
+}
+
+.PollLanding_check-icon__LXG4G {
+    width: 16px;
+    height: 16px;
+    color: #fff
+}
+
+.PollLanding_card-illustration__u1yay {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    order: 1
+}
+
+.PollLanding_illustration__u4Sdb {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+
+.PollLanding_card-text__KFJ6z {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    flex: 1;
+    min-width: 0;
+    color: #000;
+    order: 0
+}
+
+.PollLanding_card-title__IIo1T {
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000;
+    text-align: left;
+    margin: 0
+}
+
+.PollLanding_card-description__dHOZZ {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    text-align: left;
+    margin: 0
+}
+
+.PollLanding_card-example__bIsOI {
+    font: normal 400 12px/18px Neue Haas Grotesk Display Pro;
+    color: #000;
+    text-align: left;
+    margin: 0
+}
+
+@media(min-width: 768px) {
+    .PollLanding_container__YGJ_B {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 32px
+    }
+
+    .PollLanding_header__3kNo4 {
+        padding: 0;
+        margin-bottom: 32px;
+        margin-top: 8px
+    }
+
+    .PollLanding_title__TuDv9 {
+        font: normal 700 28px/40px RST Thermal
+    }
+
+    .PollLanding_description__iTPD_ {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+
+    .PollLanding_grid__yKF2_ {
+        gap: 20px
+    }
+
+    .PollLanding_card__8QdxB {
+        width: calc(50% - 10px);
+        min-height: 0;
+        flex-shrink: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 16px;
+        border-radius: 16px
+    }
+
+    .PollLanding_card--completed__1XceQ {
+        width: calc(50% - 10px);
+        min-height: 0;
+        border: 6px solid #b6cbf8;
+        border-radius: 16px;
+        background: linear-gradient(128.97deg, #cadcff 31.114%, #ffffff 56.208%)
+    }
+
+    .PollLanding_card--completed-inner__YHCJU {
+        grid-template-columns: 1fr auto;
+        column-gap: 12px;
+        row-gap: 16px;
+        padding: 20px;
+        border-width: 4px;
+        border-radius: 10px
+    }
+
+    .PollLanding_card--completed-inner__YHCJU .PollLanding_card-illustration__u1yay {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: start
+    }
+
+    .PollLanding_card--completed-inner__YHCJU .PollLanding_check-square__nk1rA {
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: end
+    }
+
+    .PollLanding_card--completed-inner__YHCJU .PollLanding_card-text__KFJ6z {
+        grid-column: 1/-1;
+        grid-row: 2
+    }
+
+    .PollLanding_card-illustration__u1yay {
+        width: 100px;
+        height: 100px;
+        order: 0
+    }
+
+    .PollLanding_card-text__KFJ6z {
+        width: 100%;
+        flex: none;
+        order: 0;
+        gap: 4px
+    }
+
+    .PollLanding_card-title__IIo1T {
+        font-size: 20px;
+        line-height: 32px
+    }
+
+    .PollLanding_card-description__dHOZZ,
+    .PollLanding_card-example__bIsOI {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1025px) {
+    .PollLanding_container__YGJ_B {
+        max-width: 1280px;
+        padding: 0 32px;
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .PollLanding_header__3kNo4 {
+        margin-bottom: 40px;
+        margin-top: 0
+    }
+
+    .PollLanding_title__TuDv9 {
+        font: normal 700 32px/44px RST Thermal
+    }
+
+    .PollLanding_description__iTPD_ {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+
+    .PollLanding_grid__yKF2_ {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px
+    }
+
+    .PollLanding_card__8QdxB {
+        flex-shrink: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 20px
+    }
+
+    .PollLanding_card--completed__1XceQ,
+    .PollLanding_card__8QdxB {
+        width: 100%;
+        min-width: 0;
+        border-radius: 24px
+    }
+
+    .PollLanding_card--completed-inner__YHCJU {
+        padding: 24px;
+        column-gap: 12px;
+        row-gap: 20px;
+        border-radius: 18px
+    }
+
+    .PollLanding_card-illustration__u1yay {
+        width: 128px;
+        height: 128px;
+        order: 0
+    }
+
+    .PollLanding_card-text__KFJ6z {
+        width: 100%;
+        flex: none;
+        gap: 4px
+    }
+
+    .PollLanding_card-title__IIo1T {
+        font-size: 20px;
+        line-height: 32px
+    }
+
+    .PollLanding_card-description__dHOZZ {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+
+    .PollLanding_card-example__bIsOI {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+        color: #000
+    }
+}
+
+@media(min-width: 1440px) {
+    .PollLanding_container__YGJ_B {
+        max-width: 1280px;
+        padding: 0
+    }
+}
+
+.SubSectorList_container__ufUdo {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.SubSectorList_header__DFUua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
+    padding: 0 16px;
+    margin-bottom: 28px
+}
+
+.SubSectorList_title__5z89G {
+    font: normal 700 20px/32px RST Thermal;
+    color: #fff;
+    margin: 0
+}
+
+.SubSectorList_subtitle___vHa3 {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: hsla(0, 0%, 100%, .85);
+    margin: 0;
+    max-width: 600px
+}
+
+.SubSectorList_list__F3erd {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 16px
+}
+
+.SubSectorList_card__y0UL_ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+    padding: 16px 20px;
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: left;
+    transition: background .1s ease-in-out
+}
+
+.SubSectorList_card__y0UL_:hover {
+    background: #e8efff
+}
+
+.SubSectorList_card__y0UL_:active {
+    background: #cadcff
+}
+
+.SubSectorList_card--completed__qsyxL {
+    width: 100%;
+    border-radius: 20px;
+    border: 3px solid #9ab2e6;
+    background: linear-gradient(90deg, white, #cadcff 145.94%);
+    overflow: hidden
+}
+
+.SubSectorList_card--completed-inner__mN1Hi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 20px;
+    border-radius: calc(20px - 3px);
+    border: 2px solid #354591
+}
+
+.SubSectorList_card-content__I3ycy {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+    min-width: 0
+}
+
+.SubSectorList_card-title__TfH4n {
+    font: normal 500 16px/24px Neue Haas Grotesk Display Pro;
+    font-style: italic;
+    line-height: 24px;
+    color: #000
+}
+
+.SubSectorList_card-description__4J9q3 {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    line-height: 20px;
+    color: #000
+}
+
+.SubSectorList_arrow-circle__K_eOY {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid #354591;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0
+}
+
+.SubSectorList_arrow-icon__rjU_r {
+    width: 18px;
+    height: 18px;
+    color: #354591
+}
+
+.SubSectorList_check-square__tj25Q {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    background: #354591;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.SubSectorList_check-icon__THMgd {
+    width: 16px;
+    height: 16px;
+    color: #fff
+}
+
+.SubSectorList_bottom-bar__lSzjE {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 24px 20px;
+    z-index: 2;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s ease
+}
+
+.SubSectorList_bottom-bar--visible__LXdz8 {
+    opacity: 1;
+    pointer-events: auto
+}
+
+.SubSectorList_back-btn__ciD1B {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font: normal 700 14px/20px Neue Haas Grotesk Display Pro;
+    padding: 0;
+    line-height: 1.4
+}
+
+.SubSectorList_back-icon__7vTj0 {
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    flex-shrink: 0
+}
+
+@media(min-width: 768px) {
+    .SubSectorList_container__ufUdo {
+        max-width: 768px;
+        margin: 0 auto
+    }
+
+    .SubSectorList_header__DFUua {
+        padding: 0;
+        margin-bottom: 32px
+    }
+
+    .SubSectorList_title__5z89G {
+        font: normal 700 28px/40px RST Thermal
+    }
+
+    .SubSectorList_subtitle___vHa3 {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+
+    .SubSectorList_list__F3erd {
+        padding: 0
+    }
+
+    .SubSectorList_bottom-bar__lSzjE {
+        padding: 16px 40px 20px
+    }
+}
+
+@media(min-width: 1025px) {
+    .SubSectorList_container__ufUdo {
+        max-width: 628px;
+        width: 100%
+    }
+
+    .SubSectorList_header__DFUua {
+        margin-bottom: 40px
+    }
+
+    .SubSectorList_title__5z89G {
+        font: normal 700 32px/44px RST Thermal
+    }
+
+    .SubSectorList_subtitle___vHa3 {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+
+    .SubSectorList_bottom-bar__lSzjE {
+        padding: 24px 36px 32px
+    }
+}
+
+.PrePollingQuestionnaire_container__oc677,
+.PrePollingQuestionnaire_content__gj0mZ {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.PrePollingQuestionnaire_header__3LYC_ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
+    padding: 0 24px;
+    margin-bottom: 20px
+}
+
+.PrePollingQuestionnaire_sub-sector-title__k4Cx_ {
+    font: normal 700 20px/32px RST Thermal;
+    color: #fff;
+    margin: 0
+}
+
+.PrePollingQuestionnaire_question__16d4z {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: hsla(0, 0%, 100%, .85);
+    margin: 0;
+    white-space: pre-line
+}
+
+.PrePollingQuestionnaire_card__z0lt1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    margin: 0 16px;
+    background: #fff;
+    border: 1px solid #2b2768;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .15)
+}
+
+.PrePollingQuestionnaire_factor-label__J6iku {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0
+}
+
+.PrePollingQuestionnaire_checkbox-list__m7Lrb {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.PrePollingQuestionnaire_checkbox-item__pz_51 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px 16px;
+    border: 1px solid #a3a3a3;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+    transition: background .1s ease-in-out, border-color .1s ease-in-out
+}
+
+.PrePollingQuestionnaire_checkbox-item__pz_51:hover:not(.PrePollingQuestionnaire_checkbox-item--disabled__UPmHD) {
+    background: #d4d4d4;
+    border-color: #354591
+}
+
+.PrePollingQuestionnaire_checkbox-item--selected__Ay5dN {
+    background: #fff;
+    border-color: #354591
+}
+
+.PrePollingQuestionnaire_checkbox-item--disabled__UPmHD {
+    opacity: .5;
+    pointer-events: none;
+    cursor: default
+}
+
+.PrePollingQuestionnaire_checkbox-input__wsn50 {
+    flex-shrink: 0;
+    margin-top: 2px
+}
+
+.PrePollingQuestionnaire_checkbox-text__OGh_7 {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    flex: 1
+}
+
+.PrePollingQuestionnaire_reason-section__ch6ia {
+    background: #f9f9f9;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.PrePollingQuestionnaire_reason-label-row__yX3zR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px
+}
+
+.PrePollingQuestionnaire_reason-label__jFQec {
+    font: normal 700 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0
+}
+
+.PrePollingQuestionnaire_reason-required__hoSlf {
+    font: normal 700 14px/20px Neue Haas Grotesk Display Pro;
+    color: #e92027
+}
+
+.PrePollingQuestionnaire_textarea__4mbWY {
+    width: 100%;
+    min-height: 120px;
+    padding: 12px;
+    border: 1px solid #4e4e4e;
+    border-radius: 12px;
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    background: #fff;
+    resize: vertical;
+    box-sizing: border-box;
+    outline: none;
+    font-family: inherit
+}
+
+.PrePollingQuestionnaire_textarea__4mbWY::placeholder {
+    color: #a3a3a3
+}
+
+.PrePollingQuestionnaire_textarea__4mbWY:focus {
+    border-color: #8b8b8b
+}
+
+.PrePollingQuestionnaire_lanjut-btn__7BqB2 {
+    font-size: 14px !important
+}
+
+@media(min-width: 768px) {
+    .PrePollingQuestionnaire_lanjut-btn__7BqB2 {
+        font-size: unset !important
+    }
+}
+
+.PrePollingQuestionnaire_submit-bar__d51Vp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px 20px;
+    margin-top: 20px;
+    width: 100%
+}
+
+.PrePollingQuestionnaire_back-btn__Ol6_e {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font: normal 700 14px/20px Neue Haas Grotesk Display Pro;
+    padding: 0;
+    line-height: 1.4
+}
+
+.PrePollingQuestionnaire_back-icon__c_Soo {
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    flex-shrink: 0
+}
+
+@media(min-width: 768px) {
+    .PrePollingQuestionnaire_content__gj0mZ {
+        max-width: 768px;
+        margin: 0 auto
+    }
+
+    .PrePollingQuestionnaire_header__3LYC_ {
+        padding: 0;
+        margin-bottom: 32px
+    }
+
+    .PrePollingQuestionnaire_sub-sector-title__k4Cx_ {
+        font: normal 700 24px/36px RST Thermal
+    }
+
+    .PrePollingQuestionnaire_question__16d4z {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+
+    .PrePollingQuestionnaire_card__z0lt1 {
+        margin: 0;
+        padding: 32px;
+        gap: 20px;
+        border-radius: 20px
+    }
+
+    .PrePollingQuestionnaire_checkbox-text__OGh_7,
+    .PrePollingQuestionnaire_factor-label__J6iku {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+
+    .PrePollingQuestionnaire_reason-label__jFQec {
+        font: normal 700 16px/24px Neue Haas Grotesk Display Pro
+    }
+
+    .PrePollingQuestionnaire_submit-bar__d51Vp {
+        padding: 16px 40px 20px
+    }
+}
+
+@media(min-width: 1025px) {
+    .PrePollingQuestionnaire_header__3LYC_ {
+        margin-bottom: 40px
+    }
+
+    .PrePollingQuestionnaire_content__gj0mZ {
+        max-width: 848px;
+        width: 100%
+    }
+
+    .PrePollingQuestionnaire_card__z0lt1 {
+        border-radius: 40px;
+        padding: 48px
+    }
+
+    .PrePollingQuestionnaire_sub-sector-title__k4Cx_ {
+        font: normal 700 28px/40px RST Thermal
+    }
+
+    .PrePollingQuestionnaire_checkbox-text__OGh_7,
+    .PrePollingQuestionnaire_factor-label__J6iku,
+    .PrePollingQuestionnaire_question__16d4z {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+
+    .PrePollingQuestionnaire_checkbox-list__m7Lrb {
+        gap: 16px
+    }
+
+    .PrePollingQuestionnaire_reason-label__jFQec {
+        font: normal 700 18px/28px Neue Haas Grotesk Display Pro
+    }
+
+    .PrePollingQuestionnaire_textarea__4mbWY {
+        font: normal 400 14px/20px Neue Haas Grotesk Display Pro
+    }
+
+    .PrePollingQuestionnaire_submit-bar__d51Vp {
+        padding: 16px 80px 20px;
+        max-width: 1280px;
+        margin: 20px auto 0
+    }
+}
+
+.SubSectorVoting_info-modal__Degi4 {
+    max-width: 345px;
+    padding: 20px;
+    gap: 20px
+}
+
+@media(min-width: 768px) {
+    .SubSectorVoting_info-modal__Degi4 {
+        max-width: 540px;
+        gap: 32px
+    }
+}
+
+.SubSectorVoting_info-modal-illustration__E4rbU {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 64px;
+    height: 64px;
+    margin-top: 0;
+    margin-bottom: 16px
+}
+
+.SubSectorVoting_info-modal-illustration__E4rbU img,
+.SubSectorVoting_info-modal-illustration__E4rbU svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+
+@media(min-width: 768px) {
+    .SubSectorVoting_info-modal-illustration__E4rbU {
+        width: 96px;
+        height: 96px;
+        margin-top: 0;
+        margin-bottom: 18px
+    }
+}
+
+@media(min-width: 1025px) {
+    .SubSectorVoting_info-modal-illustration__E4rbU {
+        margin-top: 0;
+        margin-bottom: 24px
+    }
+}
+
+.SubSectorVoting_info-modal-body__QqjtA {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    overflow-y: auto;
+    max-height: 50vh;
+    padding-inline-end: 8px
+}
+
+.SubSectorVoting_info-modal-body__QqjtA p {
+    margin: 0 0 12px
+}
+
+.SubSectorVoting_info-modal-body__QqjtA ul {
+    margin: 0;
+    padding-inline-start: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+@media(min-width: 768px) {
+    .SubSectorVoting_info-modal-body__QqjtA {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1025px) {
+    .SubSectorVoting_info-modal-body__QqjtA {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+}
+
+.SubSectorVoting_container__TKzWM {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 8px 20px;
+    background: #fff
+}
+
+.SubSectorVoting_header___2TjJ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center
+}
+
+.SubSectorVoting_header-illustration__z2tYj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 8px
+}
+
+.SubSectorVoting_illustration-image__hm4n6 {
+    object-fit: contain
+}
+
+.SubSectorVoting_header-title__81u5E {
+    font: normal 700 20px/32px RST Thermal;
+    color: #354591;
+    margin: 0
+}
+
+.SubSectorVoting_header-description__xgfNg {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0;
+    max-width: 600px
+}
+
+.SubSectorVoting_header-subtitle-heading__hnhub {
+    font: normal 700 12px/18px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 4px 0 0;
+    max-width: 600px
+}
+
+.SubSectorVoting_header-subtitle__xr_h9 {
+    font: normal 400 12px/18px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: -6px 0 0;
+    max-width: 600px
+}
+
+.SubSectorVoting_institution-grid__YV3S9 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.SubSectorVoting_bottom-button__LhNO_ {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background: #fff;
+    box-shadow: none;
+    z-index: 10
+}
+
+.SubSectorVoting_back-btn__w1s2Q {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    font: normal 700 14px/20px Neue Haas Grotesk Display Pro;
+    padding: 0;
+    line-height: 1.4
+}
+
+.SubSectorVoting_back-icon__KI_64 {
+    width: 18px;
+    height: 18px;
+    color: #000;
+    flex-shrink: 0
+}
+
+.SubSectorVoting_bottom-button--overflow__V4SWx {
+    box-shadow: 1px -2px 8px rgba(0, 0, 0, .16)
+}
+
+.SubSectorVoting_confirm-btn__WkFcD {
+    font-size: 14px !important
+}
+
+@media(min-width: 768px) {
+    .SubSectorVoting_container__TKzWM {
+        gap: 32px;
+        padding-bottom: 20px
+    }
+
+    .SubSectorVoting_header___2TjJ {
+        gap: 6px
+    }
+
+    .SubSectorVoting_header-illustration__z2tYj {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 0
+    }
+
+    .SubSectorVoting_header-title__81u5E {
+        font: normal 700 24px/36px RST Thermal
+    }
+
+    .SubSectorVoting_header-description__xgfNg {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+        max-width: 768px
+    }
+
+    .SubSectorVoting_header-subtitle-heading__hnhub {
+        font: normal 700 18px/28px Neue Haas Grotesk Display Pro;
+        color: #000;
+        margin: 14px 0 0;
+        max-width: 600px
+    }
+
+    .SubSectorVoting_header-subtitle__xr_h9 {
+        font: normal 400 16px/24px Neue Haas Grotesk Display Pro;
+        max-width: 768px
+    }
+
+    .SubSectorVoting_institution-grid__YV3S9 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px
+    }
+
+    .SubSectorVoting_bottom-button__LhNO_ {
+        padding: 40px;
+        justify-content: space-between
+    }
+
+    .SubSectorVoting_bottom-button--overflow__V4SWx {
+        padding: 24px
+    }
+}
+
+@media(min-width: 1025px) {
+    .SubSectorVoting_container__TKzWM {
+        gap: 40px;
+        padding: 0 0 180px;
+        max-width: 1064px;
+        margin: 0 auto;
+        width: 100%
+    }
+
+    .SubSectorVoting_header___2TjJ {
+        gap: 8px
+    }
+
+    .SubSectorVoting_header-illustration__z2tYj {
+        width: 180px;
+        height: 180px
+    }
+
+    .SubSectorVoting_header-title__81u5E {
+        font: normal 700 32px/44px RST Thermal;
+        width: 100%;
+        max-width: unset
+    }
+
+    .SubSectorVoting_header-description__xgfNg {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+        width: 100%;
+        max-width: unset
+    }
+
+    .SubSectorVoting_header-subtitle-heading__hnhub {
+        font: normal 700 18px/28px Neue Haas Grotesk Display Pro;
+        color: #000;
+        margin: 14px 0 0;
+        max-width: 600px
+    }
+
+    .SubSectorVoting_header-subtitle__xr_h9 {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro;
+        width: 100%;
+        max-width: unset
+    }
+
+    .SubSectorVoting_institution-grid__YV3S9 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px
+    }
+
+    .SubSectorVoting_bottom-button__LhNO_ {
+        position: fixed;
+        left: 0;
+        right: 0;
+        padding: 48px
+    }
+
+    .SubSectorVoting_bottom-button--overflow__V4SWx {
+        padding: 32px
+    }
+}
+
+.PollClient_emailVerifOverlay__O7NMz {
+    background: rgba(43, 39, 104, .85);
+    backdrop-filter: none
+}
+
+.PollClient_infoGreenIllustration__3RumY {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.PollClient_emailVerifIllustration__dBehW,
+.PollClient_infoGreenIllustration__3RumY,
+.PollClient_infoGreenIllustration__3RumY svg {
+    width: 112px !important;
+    height: 112px !important
+}
+
+.PollClient_emailVerifIllustration__dBehW {
+    background-color: #cfeddb;
+    border-radius: 50%;
+    position: relative
+}
+
+.PollClient_emailVerifIllustration__dBehW:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-color: #86d3a5;
+    border-radius: 50%
+}
+
+.PollClient_emailVerifIllustration__dBehW svg {
+    width: 64px !important;
+    height: 64px !important;
+    color: #053819;
+    position: relative;
+    z-index: 1
+}
+
+.PollClient_emailVerifIllustration__dBehW svg path:first-child {
+    fill: rgba(0, 0, 0, 0)
+}
+
+.PollClient_container__rBtIS {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    isolation: isolate
+}
+
+.PollClient_phase--landing__KY5rZ,
+.PollClient_phase--pre_polling__rbkIO,
+.PollClient_phase--sub_sector_list__9m1om {
+    background: var(--Gradient-Danger-DBlueRed-Vertical, linear-gradient(180deg, var(--Semantic-Color-Background-Danger-BG-Danger-Default, #e92027) 0, #74244f 38.46%, var(--Semantic-Color-Background-Secondary-BG-Secondary-Strong, #2b2768) 98.08%))
+}
+
+.PollClient_phase--final_voting__YIibw {
+    background: radial-gradient(307.7% 111.06% at 100% 115.32%, var(--Semantic-Color-Background-Secondary-BG-Secondary-Strong, #620000) 0, var(--Semantic-Color-Background-Secondary-BG-Secondary-Default, #be2326) 100%)
+}
+
+.PollClient_patternClip__JHxHF {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0
+}
+
+.PollClient_pattern__vdEsX {
+    position: absolute;
+    top: -50px;
+    right: -100px
+}
+
+.PollClient_patternImage__WsKB_ img {
+    display: block;
+    width: 1440px;
+    height: auto;
+    opacity: .8
+}
+
+@media(min-width: 768px)and (max-width:1023px) {
+    .PollClient_pattern__vdEsX {
+        top: -40px;
+        right: -80px
+    }
+}
+
+@media(max-width: 767px) {
+    .PollClient_pattern__vdEsX {
+        top: -30px;
+        right: -50px
+    }
+
+    .PollClient_patternImage__WsKB_ img {
+        width: 908px
+    }
+}
+
+.PollClient_navbarWrapper__t4oLr {
+    position: relative;
+    z-index: 2
+}
+
+.PollClient_searchWrapper__HMu6W {
+    position: relative;
+    width: 200px;
+    max-width: 100%
+}
+
+@media(min-width: 640px) {
+    .PollClient_searchWrapper__HMu6W {
+        width: 280px
+    }
+}
+
+.PollClient_navSearch__EZVCN {
+    width: 100%
+}
+
+.PollClient_searchDropdown__e97fD {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, .24);
+    overflow: hidden;
+    z-index: 200
+}
+
+.PollClient_searchDropdownItem__xQhuo {
+    display: block;
+    height: 44px;
+    padding: 10px 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.PollClient_searchDropdownItem__xQhuo:hover {
+    background: rgba(0, 0, 0, .04)
+}
+
+.PollClient_navSearchButton__sNvtC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    flex-shrink: 0
+}
+
+.PollClient_navSearchButton__sNvtC svg {
+    width: 20px;
+    height: 20px;
+    color: #000;
+    fill: currentColor
+}
+
+.PollClient_navSearchButton__sNvtC svg path {
+    fill: currentColor
+}
+
+.PollClient_content__tBSWp {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px 100px;
+    position: relative;
+    z-index: 1
+}
+
+@media(min-width: 768px) {
+    .PollClient_content__tBSWp {
+        padding: 0 24px 100px;
+        max-width: 768px;
+        margin: 0 auto;
+        width: 100%
+    }
+}
+
+@media(min-width: 1025px) {
+    .PollClient_content__tBSWp {
+        padding: 0 80px 140px;
+        max-width: 1440px
+    }
+}
+
+.PollClient_content--pre-polling__rptDa {
+    padding-bottom: 20px
+}
+
+.PollClient_content--landing__VI5PX {
+    padding-bottom: 40px
+}
+
+.PollClient_loadingContainer__Z3hxG {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #fff, #d4d4d4 207.81%);
+    padding: 24px
+}
+
+.PollClient_loadingSpinner__5KpuX {
+    width: 48px;
+    height: 48px;
+    border: 4px solid rgba(0, 0, 0, .1);
+    border-top-color: #be2326;
+    border-radius: 50%;
+    animation: PollClient_spin__b4qeg 1s linear infinite
+}
+
+@keyframes PollClient_spin__b4qeg {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.PollClient_loadingText__YcNKp {
+    margin-top: 16px;
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 16px;
+    color: #a3a3a3
+}
+
+.PollClient_phaseEnter__nM0sl {
+    opacity: 0;
+    transform: translateX(20px)
+}
+
+.PollClient_phaseEnterActive__LKYwz {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity .3s ease, transform .3s ease
+}
+
+.PollClient_phaseExit__f2Xfp {
+    opacity: 1;
+    transform: translateX(0)
+}
+
+.PollClient_phaseExitActive__5iZuq {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity .3s ease, transform .3s ease
+}

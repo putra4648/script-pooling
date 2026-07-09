@@ -1,0 +1,154 @@
+.error_container__vSDmZ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 24px 24px 96px;
+    background-color: #fff
+}
+
+@media(min-width: 640px) {
+    .error_container__vSDmZ {
+        padding: 80px 80px 184px
+    }
+}
+
+@media(min-width: 1025px) {
+    .error_container__vSDmZ {
+        padding: 80px
+    }
+}
+
+.error_content__JbA7e {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 345px
+}
+
+@media(min-width: 640px) {
+    .error_content__JbA7e {
+        max-width: 608px;
+        gap: 32px
+    }
+}
+
+@media(min-width: 1025px) {
+    .error_content__JbA7e {
+        max-width: 740px;
+        gap: 32px
+    }
+}
+
+.error_textContent__ivoeJ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    width: 100%
+}
+
+@media(min-width: 640px) {
+    .error_textContent__ivoeJ {
+        gap: 12px
+    }
+}
+
+@media(min-width: 1025px) {
+    .error_textContent__ivoeJ {
+        gap: 16px
+    }
+}
+
+.error_title__mcKAU {
+    font: normal 700 32px/44px RST Thermal;
+    color: #000;
+    margin: 0
+}
+
+@media(min-width: 640px) {
+    .error_title__mcKAU {
+        font: normal 700 36px/48px RST Thermal
+    }
+}
+
+@media(min-width: 1025px) {
+    .error_title__mcKAU {
+        font: normal 700 44px/64px RST Thermal
+    }
+}
+
+.error_subtitle__Fmf0S {
+    font: normal 400 14px/20px Neue Haas Grotesk Display Pro;
+    color: #000;
+    margin: 0
+}
+
+@media(min-width: 640px) {
+    .error_subtitle__Fmf0S {
+        font: normal 400 18px/28px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1025px) {
+    .error_subtitle__Fmf0S {
+        font: normal 400 24px/36px Neue Haas Grotesk Display Pro
+    }
+}
+
+.error_button__mbxIJ {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 14px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity .2s ease, transform .2s ease;
+    background: linear-gradient(90deg, #440103 14.42%, #620000 63.6%, #be2326 120%)
+}
+
+.error_button__mbxIJ:hover {
+    opacity: .9
+}
+
+.error_button__mbxIJ:active {
+    transform: scale(.98)
+}
+
+@media(min-width: 640px) {
+    .error_button__mbxIJ {
+        gap: 12px;
+        padding: 12px 16px
+    }
+}
+
+@media(min-width: 1025px) {
+    .error_button__mbxIJ {
+        padding: 14px 18px
+    }
+}
+
+.error_buttonText__w_d6_ {
+    font: normal 700 14px/20px Neue Haas Grotesk Display Pro;
+    color: #fff;
+    white-space: nowrap
+}
+
+@media(min-width: 640px) {
+    .error_buttonText__w_d6_ {
+        font: normal 700 16px/24px Neue Haas Grotesk Display Pro
+    }
+}
+
+@media(min-width: 1025px) {
+    .error_buttonText__w_d6_ {
+        font: normal 700 18px/28px Neue Haas Grotesk Display Pro
+    }
+}
